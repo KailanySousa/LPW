@@ -1,0 +1,183 @@
+/* ######################## CONTEUDO ########################*/
+#caixa-conteudo{
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+#conteudo{
+    width: inherit;
+    min-height: 600px;
+    max-height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/* ######################## MENU LATERAL ########################*/
+
+#itens-lateral{
+    width: 200px;
+    min-height: inherit;
+    max-height: auto;
+    overflow: hidden;
+    background-color: black;
+    float: left;
+}
+
+.itens{
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    border: solid 1px #52D9FF;
+    border-radius: 3px;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 13px;
+}
+
+.itens:hover{
+    background-color: #52D9FF;
+    cursor: pointer;
+    color: black;
+}
+
+#caixa-fale-conosco{
+    width: 1000px;
+    min-height: inherit;
+    max-height: auto;
+    overflow: hidden;
+    float: left;
+    background-color: black;
+}
+
+#titulo{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 30px;
+    border-bottom: solid 1px #52D9FF;
+    color: white;
+}
+
+#texto{
+    width: 500px;
+    height: 155px;
+    font-size: 25px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding-top:40px;
+    color: white;
+    text-align: center;
+    border-bottom: solid 1px #52D9FF;
+}
+
+#dados-usuario{
+    width: 800px;
+    height: 400px;
+    margin-top: 25px;
+}
+
+#formulario{
+    width: 680px;
+    height: inherit;
+}
+
+#caixa-nome{
+    width: 350px;
+    height: 50px;
+    float: left;
+}
+
+#caixa-sexo{
+    width: 330px;
+    height: 50px;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 40px;
+    color: white;
+}
+
+#n{
+    width: 330px;
+    height: 40px;
+    font-size: 16px;
+    font-family: fonte;
+    border-radius: 3px;
+    border:solid 1px #52D9FF;
+}
+
+#caixa-telefone{
+    width: 340px;
+    height: 60px;
+    box-sizing: border-box;
+    padding-top: 6px;
+    clear: both;
+    float: left;
+
+}
+
+.telefone{
+    width: 155px;
+    height: 40px;
+    float: left;
+    font-size: 16px;
+    font-family: fonte;
+    border-radius: 3px;
+    border:solid 1px #52D9FF;
+}
+
+#caixa-email{
+    width: 340px;
+    height: 60px;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 6px;
+}
+
+#email{
+    width: 340px;
+    height: 40px;
+    font-size: 16px;
+    font-family: fonte;
+    
+    border-radius: 3px;
+    border:solid 1px #52D9FF;
+}
+
+#caixa-sugestao{
+    width: inherit;
+    height: 100px;
+    clear: both;
+}
+
+#sugestao{
+    width: 680px;
+    height:90px;
+    resize: none;
+    font-size: 20px;
+    font-family: fonte;
+    
+    border-radius: 3px;
+    border:solid 1px #52D9FF;
+}
+
+#btn-enviar{
+    width: 685px;
+    height: 40px;
+    border-radius: 3px;
+    border:solid 1px #52D9FF;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    color: white;
+    font-size: 18px;
+    font-family: fonte;
+}
+
+#btn-enviar:hover{
+    background:linear-gradient(to bottom, black 5%, black  100%);
+    color: white;
+    cursor: pointer;
+}

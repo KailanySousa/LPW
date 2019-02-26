@@ -1,0 +1,172 @@
+
+#conteudo{
+     width: inherit;
+    min-height: 600px;
+    max-height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#caixa-filme{
+    width: inherit;
+    height: 500px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+#detalhes-filme{
+    width: 650px;
+    height: 400px;
+    background-color: black;
+    float: left;
+    margin-left: 10px;
+}
+
+#img-filme{
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+    margin-left: 20px;
+}
+
+#titulo-filme{
+    width: inherit;
+    height: 50px;
+}
+
+#titulo-filme h1{
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 5px;
+    font-family: fonte;
+    font-size: 20px;
+}
+
+#avaliacao{
+    width: 220px;
+    height: 35px;
+    background-color: black;
+}
+
+#estrelas{
+    width: 170px;
+    height: inherit;
+    background-color: blueviolet;
+    float: left;
+}
+
+#favorito{
+    width: 50px;
+    height: inherit;
+    background-color: aquamarine;
+    float: left;
+}
+
+#genero{
+    width: 200px;
+    height: 40px;
+    clear: both;
+}
+
+#genero h2{
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#info-filme{
+    width: 650px;
+    height: 40px;
+    clear: both;
+    margin-top: 
+}
+
+#classificacao{
+    width: 40px;
+    height: inherit;
+    background-color: beige;
+    float: left;
+    border-radius: 3px;
+}
+
+#ano{
+    width: 60px;
+    height: inherit;
+    float: left;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-right: solid 1px white;
+    text-align:center;
+}
+
+#pais{
+    width: 135px;
+    height: inherit;
+    font-size: 16px;
+    font-family: fonte;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    border-right: solid 1px white;
+    text-align:center;
+}
+
+#duracao{
+    width: 120px;
+    height: inherit;
+    float: left;
+    font-size: 16px;
+    font-family: fonte;
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align:center;
+}
+
+#dublabo{
+    width: 90px;
+    height: 30px;
+    background-color: aqua;
+    font-size: 16px;
+    font-family: fonte;
+    box-sizing: border-box;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align-last: center;
+    float: left;
+    border: solid 1px white;
+    border-radius: 3px;
+}
+
+#legendado{
+    width: 90px;
+    height: 30px;
+    background-color: aqua;
+    font-size: 16px;
+    font-family: fonte;
+    box-sizing: border-box;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align-last: center;
+    float: left;
+    border: solid 1px white;
+    border-radius: 3px;
+}
+
+#hd{
+    width: 60px;
+    height: 30px;
+    background-color: aqua;
+    font-size: 16px;
+    font-family: fonte;
+    box-sizing: border-box;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align-last: center;
+    float: left;
+    border: solid 1px white;
+    border-radius: 3px;
+}

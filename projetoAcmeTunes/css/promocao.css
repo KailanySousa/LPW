@@ -1,0 +1,157 @@
+
+
+/* ######################## CONTEUDO ########################*/
+
+#conteudo{
+    width: inherit;
+    min-height: 600px;
+    max-height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/* ######################## MENU LATERAL ########################*/
+
+#itens-lateral{
+    width: 200px;
+    min-height: inherit;
+    max-height: auto;
+    overflow: hidden;
+    background-color: black;
+    float: left;
+}
+
+.itens{
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    border: solid 1px #52D9FF;
+    border-radius: 3px;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 13px;
+}
+
+.itens:hover{
+    background-color: #52D9FF;
+    cursor: pointer;
+    color: black;
+}
+
+#caixa-produtos{
+    width: 1000px;
+    min-height: inherit;
+    max-height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+.produtos{
+    width: inherit;
+    height: 295px;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.produtos-itens{
+    width: 263px;
+    height: 300px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 15px;
+    border: solid 1px #52D9FF;
+    border-radius: 3px;
+    z-index: 2;
+}
+
+.info:hover{
+    transition: 1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border-left: solid 1px white;
+}
+
+.imagem-produto{
+    width:145px;
+    height: 155px;
+    background-color: white;
+    margin-top: 8px;
+}
+
+.info-produto{
+    width: 255px;
+    height: 85px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    margin-top: 5px;
+}
+
+.nome-filme{
+    text-align: center;
+    font-size: 17px;
+}
+
+#precos{
+    width: 228px;
+    height: 90px;
+    margin-top: 5px;
+}
+
+#preco-aluguel{
+    width: 104px;
+    height: inherit;
+    float: left;
+    margin-right: 19px;
+    border-radius: 2px;
+    border-left: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-left: 7px;
+}
+
+
+#preco-comprar{
+    width: 104px;
+    height: inherit;
+    float: left;
+    border-radius: 2px;
+    border-right: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-left: 7px;
+}
+
+.preco-de{
+    text-decoration: line-through;
+    font-family: serif;
+    opacity: 0.5;
+    margin-bottom: 5px;
+}
+
+.preco-por{
+    font-family: serif;
+}
+
+.alugar-comprar{
+    width: 85px;
+    height: 35px;
+    background-color: black;
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 6px;
+    border-radius: 2px;
+    border: solid 1px #52D9FF;
+    color: white;
+}
+
+.alugar-comprar:hover{
+    background-color: #52D9FF;
+    color: black;
+    cursor: pointer;
+}
