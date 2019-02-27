@@ -12,7 +12,7 @@ body, h1,h2,h3,p{
 
 body{
     
-    background-color: black;
+    background-color: #26292d;
 }
 
 /* ######################## PADRONIZAÇÃO ########################*/
@@ -215,8 +215,8 @@ a:any-link{
     width: 80px;
     height: 200px;
     position: absolute;
-    margin-left: 1480px;
-    margin-top: 350px;
+    margin-left: 1400px;
+    margin-top: 500px;
 }
 
 .icones{
@@ -228,10 +228,12 @@ a:any-link{
 /* ######################## BODY ########################*/
 
 #caixa-conteudo{
-    width: 1200px;
+    width: 1400px;
     min-height: 1000px;
     max-height: auto;
     overflow: hidden;
+    
+    
 }
 
 /* ######################## SLIDER ########################*/
@@ -243,7 +245,7 @@ a:any-link{
 }
 
 footer{
-    width: 1200px;
+    width: 1400px;
     height: 150px;
     background-color: beige;
 }

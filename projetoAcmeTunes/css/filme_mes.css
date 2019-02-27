@@ -1,15 +1,14 @@
 
 #conteudo{
-     width: inherit;
-    min-height: 600px;
+    width: inherit;
+    min-height: 550px;
     max-height: auto;
     overflow: hidden;
     margin-bottom: 10px;
 }
 #caixa-filme{
-    width: inherit;
-    height: 500px;
-    background-color: antiquewhite;
+    width: 1190px;
+    height: 440px;
     box-sizing: border-box;
     padding-top: 20px;
 }
@@ -20,6 +19,11 @@
     background-color: black;
     float: left;
     margin-left: 10px;
+    margin-bottom: 13px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: solid 1px #52D9FF;
 }
 
 #img-filme{
@@ -27,7 +31,8 @@
     height: 400px;
     background-color: aqua;
     float: left;
-    margin-left: 20px;
+    margin-left: 13px;
+    margin-bottom: 13px;
 }
 
 #titulo-filme{
@@ -46,20 +51,17 @@
 #avaliacao{
     width: 220px;
     height: 35px;
-    background-color: black;
 }
 
 #estrelas{
     width: 170px;
     height: inherit;
-    background-color: blueviolet;
     float: left;
 }
 
 #favorito{
     width: 50px;
     height: inherit;
-    background-color: aquamarine;
     float: left;
 }
 
@@ -71,6 +73,7 @@
 
 #genero h2{
     font-size: 18px;
+    font-family: fonte;
     box-sizing: border-box;
     padding-top: 10px;
 }
@@ -127,7 +130,7 @@
 #dublabo{
     width: 90px;
     height: 30px;
-    background-color: aqua;
+    background-color: #26292d;
     font-size: 16px;
     font-family: fonte;
     box-sizing: border-box;
@@ -142,7 +145,7 @@
 #legendado{
     width: 90px;
     height: 30px;
-    background-color: aqua;
+    background-color: #26292d;
     font-size: 16px;
     font-family: fonte;
     box-sizing: border-box;
@@ -158,7 +161,7 @@
 #hd{
     width: 60px;
     height: 30px;
-    background-color: aqua;
+    background-color: #26292d;
     font-size: 16px;
     font-family: fonte;
     box-sizing: border-box;
@@ -168,5 +171,61 @@
     text-align-last: center;
     float: left;
     border: solid 1px white;
+    border-radius: 3px;
+}
+
+#diretor{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: fonte;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#atores{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: fonte;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#sinopse{
+    width: 600px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 15px;
+    line-height: 1.2;
+}
+
+#sinopse::first-letter{
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+#preco{
+    width: inherit;
+    height: 100px;
+    clear: both;
+    box-sizing: border-box;
+    padding-left: 420px;
+}
+
+.aluguel-compra{
+    width: 190px;
+    height: 50px;
+    background-color: black;
+    float: left;
+    margin-left: 10px;
+    margin-top: 23px;
+    text-align:center;
+    box-sizing: border-box;
+    padding-top: 13px;
+    font-size: 20px;
+    border: solid 1px #52D9FF;;
     border-radius: 3px;
 }

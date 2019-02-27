@@ -6,21 +6,21 @@
     max-height: auto;
     overflow: hidden;
     margin-bottom: 10px;
+    background-color: #26292d;
 }
 
 /* ######################## MENU LATERAL ########################*/
 
 #itens-lateral{
-    width: 200px;
+    width: 180px;
     min-height: inherit;
     max-height: auto;
     overflow: hidden;
-    background-color: black;
     float: left;
 }
 
 .itens{
-    width: 180px;
+    width: inherit;
     height: 50px;
     background-color: black;
     border: solid 1px #52D9FF;
@@ -40,7 +40,7 @@
 }
 
 #caixa-produtos{
-    width: 1000px;
+    width: 1220px;
     min-height: inherit;
     max-height: auto;
     overflow: hidden;
@@ -56,14 +56,15 @@
 }
 
 .produtos-itens{
-    width: 263px;
-    height: 278px;
+    width: 330px;
+    height: 370px;
     margin-top: 10px;
     float: left;
     margin-right: 15px;
     border: solid 1px #52D9FF;
     border-radius: 3px;
     z-index: 2;
+    background-color: black;
 }
 
 .info:hover{
@@ -75,14 +76,14 @@
 }
 
 .imagem-produto{
-    width:145px;
-    height: 155px;
+    width:200px;
+    height: 220px;
     background-color: white;
     margin-top: 8px;
 }
 
 .info-produto{
-    width: 255px;
+    width: 300px;
     height: 85px;
     box-sizing: border-box;
     padding-left: 10px;
@@ -92,8 +93,9 @@
 }
 
 .info{
-    margin-top: 5px;
-    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 
 #nome-filme{
@@ -108,4 +110,6 @@
     padding-top: 3px;
     padding-right: 20px;
     color: white;
+    font-size: 18px;
+    margin-top: 10px;
 }

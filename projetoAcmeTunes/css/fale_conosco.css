@@ -9,37 +9,7 @@
     max-height: auto;
     overflow: hidden;
     margin-bottom: 10px;
-}
-
-/* ######################## MENU LATERAL ########################*/
-
-#itens-lateral{
-    width: 200px;
-    min-height: inherit;
-    max-height: auto;
-    overflow: hidden;
-    background-color: black;
-    float: left;
-}
-
-.itens{
-    width: 180px;
-    height: 50px;
-    background-color: black;
-    border: solid 1px #52D9FF;
-    border-radius: 3px;
-    color: white;
-    margin-top: 10px;
-    font-size: 20px;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 13px;
-}
-
-.itens:hover{
-    background-color: #52D9FF;
-    cursor: pointer;
-    color: black;
+    margin-top: -10px;
 }
 
 #caixa-fale-conosco{
@@ -49,6 +19,7 @@
     overflow: hidden;
     float: left;
     background-color: black;
+    margin-left: 60px;
 }
 
 #titulo{
@@ -60,18 +31,6 @@
     font-size: 30px;
     border-bottom: solid 1px #52D9FF;
     color: white;
-}
-
-#texto{
-    width: 500px;
-    height: 155px;
-    font-size: 25px;
-    margin-top: 15px;
-    box-sizing: border-box;
-    padding-top:40px;
-    color: white;
-    text-align: center;
-    border-bottom: solid 1px #52D9FF;
 }
 
 #dados-usuario{
