@@ -53,7 +53,7 @@
                             <div id="classificacao"><img src="img/classificacao_livre.jpg"></div>
                             <div id="ano"><span style="font-family:cursive">2017</span></div>
                             <div id="pais">Estados Unidos</div>
-                            <div id="duracao"><span style="font-family:cursive">120</span> minutos</div>
+                            <div id="duracao">120 minutos</div>
                             <div id="dublabo"> Dublado </div>
                             <div id="legendado"> Legendado </div>
                             <div id="hd"> HD </div>
@@ -69,6 +69,10 @@
                     <div id="preco" class="center">
                         <div class="aluguel-compra"> Aluge por R$9,99</div>
                         <div class="aluguel-compra"> Compre por R$19,99</div>
+                    </div>
+                    
+                    <div id="trailer" class="center">
+                        <iframe src="https://www.youtube.com/embed/Agqr8987-DA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>

@@ -25,12 +25,12 @@
     background-color: black;
     border: solid 1px #52D9FF;
     border-radius: 3px;
-    color: white;
     margin-top: 10px;
     font-size: 20px;
     text-align: center;
     box-sizing: border-box;
     padding-top: 13px;
+    font-family: fonte;
 }
 
 .itens:hover{
@@ -96,10 +96,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 18px;
-}
-
-#nome-filme{
-   
+    font-family: fonte;
 }
 
 .detalhes-produto{
@@ -109,7 +106,8 @@
     box-sizing: border-box;
     padding-top: 3px;
     padding-right: 20px;
-    color: white;
+    
+    font-family: fonte;
     font-size: 18px;
     margin-top: 10px;
 }

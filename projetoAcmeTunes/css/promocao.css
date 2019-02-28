@@ -45,6 +45,7 @@
     box-sizing: border-box;
     padding-left: 5px;
     border-left: solid 1px white;
+    font-family: fonte;
 }
 
 .imagem-produto{
@@ -68,35 +69,41 @@
     text-align: center;
     font-size: 20px;
     height: 15px;
+    font-family: fonte;
 }
 
 #precos{
     width: 320px;
     height: 110px;
     margin-top: 35px;
-    margin-left: -10px;
+    margin-left: -20px;
+    font-family: fonte;
 }
 
 #preco-aluguel{
-    width: 120px;
+    width: 135px;
     height: inherit;
     float: left;
-    margin-right: 19px;
+    margin-right: 10px;
     border-radius: 2px;
     border-left: solid 1px #52D9FF;
     box-sizing: border-box;
     padding-left: 7px;
+    
+    font-family: fonte;
 }
 
 
 #preco-comprar{
-    width: 120px;
+    width: 135px;
     height: inherit;
     float: left;
     border-radius: 2px;
     border-right: solid 1px #52D9FF;
     box-sizing: border-box;
     padding-left: 7px;
+    
+    font-family: fonte;
 }
 
 .preco-de{
@@ -104,19 +111,24 @@
     font-family: serif;
     opacity: 0.5;
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 16px;
+    
+    font-family: fonte;
 }
 
 .preco-por{
     font-family: serif;
-    font-size: 18px;
+    font-size: 16px;
+    
+    font-family: fonte;
 }
 
 .alugar-comprar{
-    width: 85px;
+    width: 90px;
     height: 35px;
     background-color: black;
     margin-top: 20px;
+    margin-left: 15px;
     text-align: center;
     box-sizing: border-box;
     padding-top: 6px;

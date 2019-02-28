@@ -64,7 +64,6 @@
     width: 330px;
     height: 40px;
     font-size: 16px;
-    font-family: fonte;
     border-radius: 3px;
     border:solid 1px #52D9FF;
 }
@@ -84,7 +83,6 @@
     height: 40px;
     float: left;
     font-size: 16px;
-    font-family: fonte;
     border-radius: 3px;
     border:solid 1px #52D9FF;
 }
@@ -101,7 +99,6 @@
     width: 340px;
     height: 40px;
     font-size: 16px;
-    font-family: fonte;
     
     border-radius: 3px;
     border:solid 1px #52D9FF;
@@ -118,7 +115,6 @@
     height:90px;
     resize: none;
     font-size: 20px;
-    font-family: fonte;
     
     border-radius: 3px;
     border:solid 1px #52D9FF;
@@ -132,7 +128,6 @@
     background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
     color: white;
     font-size: 18px;
-    font-family: fonte;
 }
 
 #btn-enviar:hover{

@@ -15,7 +15,7 @@
         <div class="menu-itens"> A Acme
             <div class="submenu"> 
                 <div class="submenu-itens"> Lojas </div>
-                <div class="submenu-itens"> Sobre </div>
+                <a href="sobre.php"><div class="submenu-itens"> Sobre </div></a>
                 <a href="fale_conosco.php"><div class="submenu-itens" style="height: 60px;"> Fale Conosco</div></a>
             </div>
         </div>
@@ -31,7 +31,7 @@
                 <p class="lbl-login"> Senha: </p>
                 <input class="txt-login" type="text" name="txt_senha" value=""/>
             </div>
-
+            
             <input id="btn-entrar" type="submit" name="btn_entrar" value="Entrar"/>
         </form>
     </div>

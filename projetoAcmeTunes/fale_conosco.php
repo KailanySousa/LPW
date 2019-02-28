@@ -51,8 +51,8 @@
                                     <textarea id="sugestao" name="txt-sugestoes" value="" placeholder="Digite aqui suas dúvidas, sugestões e/ou elogios"></textarea>
                                 </div>
                                 
+                                
                                 <input id="btn-enviar" type="submit" name="txt-enviar" value="Enviar"/>
-
                             </form>
                         </div>
                     </div>
