@@ -84,7 +84,7 @@ a:any-link{
     color: white;
     font-size: 22px;
     box-sizing: border-box;
-    padding-top: 18px;
+    padding-top: 10px;
     padding-left: 3px;
     font-family: fonte;
 }
@@ -164,6 +164,7 @@ a:any-link{
     width: 440px;
     height: inherit;
     float: left;
+    margin-left: 180px;
 }
 
 .caixa-login{
@@ -238,7 +239,7 @@ a:any-link{
     min-height: 1000px;
     max-height: auto;
     overflow: hidden;
-    
+    clear: both;
     
 }
 

@@ -13,13 +13,12 @@
 }
 
 #caixa-fale-conosco{
-    width: 1000px;
+    width: inherit;
     min-height: inherit;
     max-height: auto;
     overflow: hidden;
     float: left;
     background-color: black;
-    margin-left: 60px;
 }
 
 #titulo{

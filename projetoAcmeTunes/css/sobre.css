@@ -1,0 +1,56 @@
+/* ######################## CONTEUDO ########################*/
+#caixa-conteudo{
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+#conteudo{
+    width: inherit;
+    min-height: 600px;
+    max-height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    background-color: black;
+}
+
+
+#titulo{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 30px;
+    border-bottom: solid 1px #52D9FF;
+    color: white;
+}
+
+#texto{
+    width: 510px;
+    height: 400px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+}
+
+#texto p{
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+#texto p::first-letter{
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+#img-logo{
+    width: 420px;
+    height: 420px;
+    background-image: url(../img/location.png);
+    background-size: cover;
+    float: left;
+    margin-top: 15px;
+}

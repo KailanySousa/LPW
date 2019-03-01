@@ -17,7 +17,7 @@
         
         <div id="caixa-conteudo" class="center">
             
-            <div style="margin-left: 150px;" id="conteudo"> 
+            <div id="conteudo"> 
                 
                 <div id="caixa-fale-conosco"> 
                     <div id="titulo" class="center"> <h1>Fale Conosco </h1></div>
