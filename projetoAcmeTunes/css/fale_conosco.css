@@ -1,11 +1,20 @@
 /* ######################## CONTEUDO ########################*/
+@font-face{
+    font-family: fonte;
+    src: url(../fontes/COPRGTB.TTF);
+}
+
+*{
+    font-family: fonte;
+}
+
 #caixa-conteudo{
     box-sizing: border-box;
     padding-top: 100px;
 }
 #conteudo{
     width: inherit;
-    min-height: 600px;
+    min-height: 700px;
     max-height: auto;
     overflow: hidden;
     margin-bottom: 10px;
@@ -39,36 +48,53 @@
 }
 
 #formulario{
-    width: 680px;
+    width: 710px;
     height: inherit;
 }
 
 #caixa-nome{
-    width: 350px;
+    width: 340px;
     height: 50px;
     float: left;
 }
 
-#caixa-sexo{
-    width: 330px;
+#caixa-profissao{
+    width: 170px;
     height: 50px;
     float: left;
-    box-sizing: border-box;
-    padding-top: 10px;
-    padding-left: 40px;
+}
+
+#profissao{
+    width: inherit;
+    height: 40px;
+    font-size: 16px;
+     border:solid 1px #52D9FF;
+}
+
+#caixa-sexo{
+    width: 190px;
+    height: 50px;
+    float: left;
     color: white;
+    margin-left: 5px;
+}
+
+#slt-sexo{
+    width: 185px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 5px;
 }
 
 #n{
     width: 330px;
     height: 40px;
     font-size: 16px;
-    border-radius: 3px;
     border:solid 1px #52D9FF;
 }
 
 #caixa-telefone{
-    width: 340px;
+    width: 360px;
     height: 60px;
     box-sizing: border-box;
     padding-top: 6px;
@@ -78,16 +104,15 @@
 }
 
 .telefone{
-    width: 155px;
+    width: 170px;
     height: 40px;
     float: left;
     font-size: 16px;
-    border-radius: 3px;
     border:solid 1px #52D9FF;
 }
 
 #caixa-email{
-    width: 340px;
+    width: 343px;
     height: 60px;
     float: left;
     box-sizing: border-box;
@@ -95,42 +120,105 @@
 }
 
 #email{
-    width: 340px;
+    width: inherit;
     height: 40px;
     font-size: 16px;
-    
-    border-radius: 3px;
+    border:solid 1px #52D9FF;
+}
+
+#caixa-links{
+    width: 702px;
+    height: 60px;
+    clear: both;
+}
+
+.links{
+    width: 347px;
+    height: 40px;
+    float: left;
+}
+
+.links-input{
+    width: inherit;
+    height: inherit;
+    border:solid 1px #52D9FF;
+    font-size: 16px;
+}
+
+#caixa-info-produto{
+    width: inherit;
+    height: 70px;
+    margin-top: -5px;
+}
+
+#info-produtos{
+    width: 697px;
+    height: 50px;
+    resize: none;
+    font-size: 16px;
     border:solid 1px #52D9FF;
 }
 
 #caixa-sugestao{
     width: inherit;
-    height: 100px;
+    height: 80px;
     clear: both;
+    margin-top: -3px;
 }
 
 #sugestao{
-    width: 680px;
-    height:90px;
+    width: 697px;
+    height:70px;
     resize: none;
-    font-size: 20px;
-    
-    border-radius: 3px;
+    font-size: 16px;
     border:solid 1px #52D9FF;
 }
 
 #btn-enviar{
-    width: 685px;
+    width: 703px;
     height: 40px;
     border-radius: 3px;
     border:solid 1px #52D9FF;
     background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
     color: white;
     font-size: 18px;
+    margin-top: 8px;
 }
 
 #btn-enviar:hover{
     background:linear-gradient(to bottom, black 5%, black  100%);
     color: white;
     cursor: pointer;
+}
+
+#empresa-info{
+    margin-top: 25px;
+    width: 700px;
+    height: 100px;
+    margin-left: 350px;
+    border: solid 1px #52D9FF;
+    
+}
+
+#titulo-contato{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    margin-left: 600px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    float: left;
+}
+
+.endereco-empresa{
+    width: 50%;
+    height: inherit;
+    float: left;
+    margin-top: -24px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
 }

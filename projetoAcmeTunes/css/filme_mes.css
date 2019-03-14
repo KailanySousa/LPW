@@ -1,7 +1,10 @@
-
+body{
+    margin: 0px;
+    padding: 0px;
+}
 #conteudo{
     width: inherit;
-    min-height: 1000px;
+    min-height: 500px;
     max-height: auto;
     overflow: hidden;
     margin-bottom: 10px;
@@ -24,8 +27,6 @@
     margin-bottom: 13px;
     box-sizing: border-box;
     padding-left: 10px;
-    border-radius: 3px;
-    
     font-family: fonte;
     border: solid 1px #52D9FF;
 }
@@ -129,46 +130,29 @@
 
 #dublabo{
     width: 90px;
+    margin-left: 5px;
+}
+
+.opcoes-filme{
+    background-color: rgb(44, 179, 186);
     height: 30px;
-    background-color: #26292d;
     font-size: 16px;
     box-sizing: border-box;
-    padding-top: 5px;
+    padding-top: 6px;
     margin-top: 5px;
-    text-align-last: center;
+    text-align: center;
+    color: black;
     float: left;
-    border: solid 1px white;
-    border-radius: 3px;
 }
 
 #legendado{
     width: 107px;
-    height: 30px;
-    background-color: #26292d;
-    font-size: 16px;
-    box-sizing: border-box;
-    padding-top: 5px;
-    margin-top: 5px;
-    margin-left: 10px;
-    text-align-last: center;
-    float: left;
-    border: solid 1px white;
-    border-radius: 3px;
+    margin-left: 6px;
 }
 
 #hd{
     width: 60px;
-    height: 30px;
-    background-color: #26292d;
-    font-size: 16px;
-    box-sizing: border-box;
-    padding-top: 5px;
-    margin-top: 5px;
-    margin-left: 10px;
-    text-align-last: center;
-    float: left;
-    border: solid 1px white;
-    border-radius: 3px;
+    margin-left: 6px;
 }
 
 #diretor{
@@ -195,6 +179,7 @@
     margin-left: 10px;
     margin-top: 15px;
     line-height: 1.2;
+    letter-spacing: 2px;
 }
 
 #sinopse::first-letter{
@@ -207,11 +192,11 @@
     height: 100px;
     clear: both;
     box-sizing: border-box;
-    padding-left: 420px;
+    padding-left: 360px;
 }
 
 .aluguel-compra{
-    width: 190px;
+    width: 220px;
     height: 50px;
     background-color: black;
     float: left;
@@ -220,17 +205,31 @@
     text-align:center;
     box-sizing: border-box;
     padding-top: 13px;
-    font-size: 20px;
-    border: solid 1px #52D9FF;;
-    border-radius: 3px;
+    font-size: 18px;
+    border: solid 1px #52D9FF;
+    font-family: fonte;
+}
+
+.aluguel-compra:hover{
+    cursor: pointer;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    transition: 0.5s;
+    color: black;
 }
 
 #trailer{
-    width: 700px;
-    height: 500px;
+    width: inherit;
+    height: 600px;
+    background-image: url(../img/bob.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    padding-left: 450px;
+    padding-top: 50px;
 }
 
 iframe{
-    width: inherit;
-    height: inherit;
+    width: 700px;
+    height: 500px;
+    opacity: 1;
 }

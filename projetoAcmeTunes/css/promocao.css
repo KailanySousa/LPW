@@ -16,94 +16,86 @@
     max-height: auto;
     overflow: hidden;
     float: left;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 
 .produtos{
     width: inherit;
     height: 295px;
-    box-sizing: border-box;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 .produtos-itens{
-    width: 330px;
-    height: 370px;
+    width: 380px;
+    height: 430px;
     margin-top: 10px;
     float: left;
     margin-right: 15px;
     border: solid 1px #52D9FF;
-    border-radius: 3px;
-    z-index: 2;
     background-color: black;
 }
 
-.info:hover{
-    transition: 1s;
-    cursor: pointer;
-    box-sizing: border-box;
-    padding-left: 5px;
-    border-left: solid 1px white;
-    font-family: fonte;
-}
-
 .imagem-produto{
-    width:145px;
-    height: 155px;
+    width:220px;
+    height: 230px;
     background-color: white;
     margin-top: 8px;
+    margin-top: 8px;
+	overflow: hidden;
+	position: relative;
 }
 
+img:hover{
+    cursor: pointer;
+   -webkit-transform: scale(1.1) ;
+	-moz-transform: scale(1.1) ;
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1) ;
+	transform: scale(1.1) ;
+    transition: 1s;
+}
+
+
 .info-produto{
-    width: 255px;
-    height: 85px;
+    width: inherit;
+    height: 40px;
     box-sizing: border-box;
-    padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 10px;
     color: white;
     margin-top: 5px;
 }
 
-.nome-filme{
+.info-produto .nome-filme{
     text-align: center;
     font-size: 20px;
-    height: 15px;
     font-family: fonte;
+    margin-left: 2px;
+    height: inherit;
 }
 
-#precos{
+.precos{
     width: 320px;
     height: 110px;
-    margin-top: 35px;
-    margin-left: -20px;
+    margin-left: 48px;
     font-family: fonte;
 }
 
-#preco-aluguel{
+.preco-aluguel-compra{
     width: 135px;
     height: inherit;
     float: left;
-    margin-right: 10px;
-    border-radius: 2px;
+    box-sizing: border-box;
+    padding-left: 7px;
+    font-family: fonte;
+}
+
+.preco-aluguel{
     border-left: solid 1px #52D9FF;
-    box-sizing: border-box;
-    padding-left: 7px;
-    
-    font-family: fonte;
+    margin-right: 10px;
 }
 
-
-#preco-comprar{
-    width: 135px;
-    height: inherit;
-    float: left;
-    border-radius: 2px;
+.preco-comprar{
     border-right: solid 1px #52D9FF;
-    box-sizing: border-box;
-    padding-left: 7px;
-    
-    font-family: fonte;
+    margin-right: 10px;
 }
 
 .preco-de{
@@ -132,7 +124,6 @@
     text-align: center;
     box-sizing: border-box;
     padding-top: 6px;
-    border-radius: 2px;
     border: solid 1px #52D9FF;
     color: white;
 }

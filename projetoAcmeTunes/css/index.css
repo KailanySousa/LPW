@@ -9,6 +9,7 @@
     background-color: #26292d;
 }
 
+
 /* ######################## MENU LATERAL ########################*/
 
 #itens-lateral{
@@ -24,7 +25,6 @@
     height: 50px;
     background-color: black;
     border: solid 1px #52D9FF;
-    border-radius: 3px;
     margin-top: 10px;
     font-size: 20px;
     text-align: center;
@@ -37,6 +37,7 @@
     background-color: #52D9FF;
     cursor: pointer;
     color: black;
+    border-radius: 3px;
 }
 
 #caixa-produtos{
@@ -51,63 +52,72 @@
     width: inherit;
     height: 295px;
     box-sizing: border-box;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 60px;
+    padding-right: 40px;
 }
 
 .produtos-itens{
-    width: 330px;
-    height: 370px;
+    width: 360px;
+    height: 430px;
     margin-top: 10px;
     float: left;
-    margin-right: 15px;
+    margin-right: 10px;
     border: solid 1px #52D9FF;
-    border-radius: 3px;
     z-index: 2;
     background-color: black;
 }
 
-.info:hover{
-    transition: 1s;
-    cursor: pointer;
-    box-sizing: border-box;
-    padding-left: 5px;
-    border-left: solid 1px white;
-}
-
 .imagem-produto{
-    width:200px;
-    height: 220px;
+    width:210px;
+    height: 260px;
     background-color: white;
     margin-top: 8px;
+	overflow: hidden;
+	position: relative;
+}
+
+img:hover{
+    cursor: pointer;
+   -webkit-transform: scale(1.1) ;
+	-moz-transform: scale(1.1) ;
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1) ;
+	transform: scale(1.1) ;
+    transition: 1s;
 }
 
 .info-produto{
     width: 300px;
-    height: 85px;
+    height: 100px;
     box-sizing: border-box;
-    padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 10px;
     color: white;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .info{
-    margin-top: 10px;
+    margin-top: 13px;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 14px;
     font-family: fonte;
 }
 
 .detalhes-produto{
-    width: 255px;
-    height:28px; 
-    text-align: right;
+    width: 130px;
+    height:35px; 
+    text-align: center;
     box-sizing: border-box;
-    padding-top: 3px;
-    padding-right: 20px;
-    
+    padding-top: 7px;
     font-family: fonte;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-left: 195px;
+    background-color: black;
+    border: solid 1px #52D9FF;
+}
+
+.detalhes-produto:hover{
+    background-color: #52D9FF;
+    color: black;
+    cursor: pointer;
 }

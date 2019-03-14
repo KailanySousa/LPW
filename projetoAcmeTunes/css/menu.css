@@ -3,14 +3,17 @@
     src: url(../fontes/COPRGTB.TTF);
 }
 
-body, h1,h2,h3,p{
+*{
+    font-family: fonte;
+}
+
+body, h1,h2,h3,p,ul{
     margin: 0px;
     padding: 0px;
     font-family: fonte;
 }
 
 body{
-    font-family: fonte;
     color: white;
     background-color: #26292d;
 }
@@ -33,12 +36,11 @@ img{
 header{
     width: 100%;
     height: 80px;
-    /*background-color: #00edff;*/
     background-color: black;
     box-sizing: border-box;
     padding-top: 5px;
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     font-family: 
 }
 
@@ -60,7 +62,7 @@ a:any-link{
 }
 
 #logo{
-    width: 200px;
+    width: 180px;
     height: inherit;
     float: left;
     margin-right: 15px;
@@ -69,16 +71,16 @@ a:any-link{
 #imagem-logo{
     width: 70px;
     height: inherit;
-/*    background-image: url(../img/film-reel.png);*/
+    background-image: url(../img/film-reel.png);
 /*    background-image: url(../img/film.png);*/
-   background-image: url(../img/location.png);
+/*   background-image: url(../img/location.png);*/
 /*    background-image: url(../img/movie-ticket.png);*/
     background-size: contain;
     float: left;
 }
 
 #nome{
-    width: 130px;
+    width: 110px;
     height: inherit;
     float: left;
     color: white;
@@ -92,24 +94,22 @@ a:any-link{
 /* ######################## MENU ########################*/
 
 #menu{
-    width: 550px;
+    width: 630px;
     height: inherit;
     float: left;
 }
 
 .menu-itens{
-    width: 130px;
+    width: 145px;
     height: 60px;
     float: left;
-    margin-right: 5px;
+    margin-right: 10px;
     text-align: center;
-    
     font-family: fonte;
     box-sizing: border-box;
     padding-top: 17px;
     font-size: 20px;
     margin-top: 5px;
-    border-radius: 3px;
     border-left: solid 1px #52D9FF;
     border-bottom: solid 1px #52D9FF;
 }
@@ -119,6 +119,7 @@ a:any-link{
     color: white;
     transition: 1s;
     cursor: pointer;
+    border-radius: 3px;
 }
 
 .submenu{
@@ -140,7 +141,7 @@ a:any-link{
     padding-top: 12px;
     margin-bottom: 10px;
     border: solid 1px #52D9FF;
-    border-radius: 3px;
+
     background-color: black;
     z-index: 100;
 }
@@ -148,7 +149,8 @@ a:any-link{
 .submenu-itens:hover{
     transition: 0.5s;
     cursor: pointer;
-    background-color: #52D9FF;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border-radius: 3px;
 }
 
 .menu-itens:hover .submenu{
@@ -161,10 +163,9 @@ a:any-link{
 /* ######################## LOGIN ########################*/
 
 #login{
-    width: 440px;
+    width: 500px;
     height: inherit;
     float: left;
-    margin-left: 180px;
 }
 
 .caixa-login{
@@ -203,8 +204,9 @@ a:any-link{
 }
 
 #btn-entrar{
-    height: 30px;
-    margin-top: 30px;
+    width: 80px;
+    height: 35px;
+    margin-top: 26px;
     border-radius: 3px;
     background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
     border: solid 1px #52D9FF;
@@ -223,20 +225,21 @@ a:any-link{
     height: 200px;
     position: absolute;
     margin-left: 1400px;
-    margin-top: 500px;
+    margin-top: 610px;
 }
 
 .icones{
     width: 60px;
     height: 60px;
     margin-bottom: 10px;
+    background-size: cover;
 }
 
 /* ######################## BODY ########################*/
 
 #caixa-conteudo{
     width: 1400px;
-    min-height: 1000px;
+    min-height: 675px;
     max-height: auto;
     overflow: hidden;
     clear: both;
@@ -247,8 +250,36 @@ a:any-link{
 
 #slider{
     width: inherit;
-    height: 400px;
+    height: 600px;
     margin-top: 5px;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+
+
+
+#filme1, #filmeNav1{
+    background-image: url(../img/bob.jpg);
+}
+
+#filme2, #filmeNav2{
+    background-image: url(../img/cacador_recompensas.jpg);
+}
+
+#filme3, #filmeNav3{
+    background-image: url(../img/chamada_emergencia.jpeg);
+}
+
+#filme4, #filmeNav4{
+    background-image: url(../img/coraline.jpg);
+}
+
+#filme5, #filmeNav5{
+    background-image: url(../img/gente_grande.jpg);
+}
+
+#filme6, #filmeNav6{
+    background-image: url(../img/sempre_lado.jpg);
 }
 
 footer{

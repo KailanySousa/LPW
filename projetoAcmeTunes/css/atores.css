@@ -1,0 +1,155 @@
+@font-face{
+    font-family: fonte;
+    src: url(../fontes/COPRGTB.TTF);
+}
+
+/* ######################## CONTEUDO ########################*/
+
+#conteudo{
+    width: inherit;
+    min-height: 600px;
+    max-height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+#titulo-destaque{
+    width: inherit;
+    height: 80px;
+    background-color: rebeccapurple;
+    text-align:center;
+    font-size: 45px;
+    font-family: fonte;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+#ator-destaque{
+    width: inherit;
+    height: 560px;
+    background-color: aqua;
+}
+
+#caixa-atores{
+    width: inherit;
+    min-height: 1000px;
+    max-height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 35px;
+    background-color: black;
+}
+
+#atores{
+    width: 1350px;
+    min-height:470px;
+    max-height: auto;
+    overflow: hidden;
+    border: solid 1px #52D9FF;
+    margin-top: 20px;
+    margin-left: 25px;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+}
+
+#titulo-atores{
+    width: 420px;
+    height: 40px;
+    background-color: black;
+    font-size: 30px;
+    font-family: fonte;
+    margin-left: 50px;
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 5px;
+    text-align:center;
+}
+
+.imagens-atores{
+    width: inherit;
+    height: 410px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+/*####### EFEITO FLIP ########*/
+
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 360px;
+    margin-left: 14px;
+    float: left;
+    perspective: 1000px;/* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+/* Position the front and back side */
+.img-atores, .texto-atores {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.img-atores{
+    width:inherit;
+    height: inherit;
+    background-color: aqua;
+    float: left;
+}
+
+.texto-atores{
+    background-color: black;
+    width: 300px;
+    height: 360px;
+    transform: rotateY(180deg);
+    border: solid 1px #52D9FF;
+}
+
+.nome-ator{
+    width: inherit;
+    height: 40px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    font-family: fonte;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    text-align:center;
+}
+
+.info-atores{
+    margin-top: 10px;
+    margin-left: 8px;
+    box-sizing: border-box;
+    padding-bottom:10px;
+    font-family: fonte;
+    font-size: 20px;
+}
+
+.informacoes{
+    width: 280px;
+    font-family: fonte;
+    font-size: 18px;
+    text-align:center;
+    border-bottom: solid 1px #52D9FF;
+    margin-top: 5px;
+    margin-left: 7px;
+    box-sizing: border-box;
+    padding-bottom:10px;
+}

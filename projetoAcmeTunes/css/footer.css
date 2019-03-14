@@ -1,0 +1,76 @@
+#caixa-footer{
+    width: 1200px;
+    height: inherit;
+    box-sizing: border-box;
+    padding-left: 70px;
+}
+
+.info-footer{
+    width: 270px;
+    height: inherit;
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.titulo{
+    font-size: 16px;
+    font-family: fonte;
+}
+
+.lista-footer{
+    font-size: 14px;
+    font-family: fonte;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.lista-site{
+    width: 110px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border-bottom: solid 1px #52D9FF;
+}
+
+.lista-contato{
+    margin-top: 5px;
+}
+
+.lista-endereco{
+    margin-top: 5px;
+}
+
+#caixa-icones{
+    width: 220px;
+    height: 50px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    padding-left: 13px;
+}
+
+.icones-footer{
+    width: 50px;
+    height: inherit;
+    margin-right: 15px;
+    float: left;
+    background-size: cover;
+}
+
+#copyright{
+    width: 1400px;
+    height: inherit;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+}
+
+#fim-footer{
+    width: inherit;
+    height: 40px;
+    background-color: #202123;
+}
