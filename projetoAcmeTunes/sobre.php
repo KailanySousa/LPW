@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <title>
-            Home
+            Sobre
         </title>
 
         <link rel="stylesheet" type="text/css" href="css/menu.css">
@@ -66,8 +66,8 @@
                     </div>
                     <div class="icones-sobre" style="background-image:url(img/trophy.png);"></div>
                      <div class="textos"> 
-						<p> Canis Latrans começou alugando e vendendo filmes na garagem de casa.</p>
-						<p> Depois de um tempo, alugou um ponto comercial e investiu ainda mais, inaugurando a primeira loja Acme Tunes, em 2012.</p>
+                         <p> Recebeu o Prêmio de Melhor Locadora pelo Jornal Folha de São Paulo, em 2014. </p>
+                        <p>Além de ser considerada a melhor locadora com mais avaliações positivas.</p>
 					</div>
                 </div>
             </div>

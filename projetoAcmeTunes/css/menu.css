@@ -7,10 +7,9 @@
     font-family: fonte;
 }
 
-body, h1,h2,h3,p,ul{
+body, h1,h2,h3,p,ul,figure{
     margin: 0px;
     padding: 0px;
-    font-family: fonte;
 }
 
 body{
@@ -108,7 +107,7 @@ a:any-link{
     font-family: fonte;
     box-sizing: border-box;
     padding-top: 17px;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 5px;
     border-left: solid 1px #52D9FF;
     border-bottom: solid 1px #52D9FF;
@@ -284,6 +283,6 @@ a:any-link{
 
 footer{
     width: 100%;
-    height: 200px;
+    height: 220px;
     background-color: black;
 }

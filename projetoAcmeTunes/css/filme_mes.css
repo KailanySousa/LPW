@@ -217,18 +217,23 @@ body{
     color: black;
 }
 
-#trailer{
+#caixa-trailer{
     width: inherit;
     height: 600px;
     background-image: url(../img/bob.jpg);
     background-size: cover;
     background-attachment: fixed;
     box-sizing: border-box;
-    padding-left: 450px;
     padding-top: 50px;
 }
 
-iframe{
+#trailer{
+    width: 1400px;
+    box-sizing: border-box;
+    padding-left: 350px;
+}
+
+video{
     width: 700px;
     height: 500px;
     opacity: 1;

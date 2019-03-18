@@ -42,6 +42,4 @@
         </div>
     </div>
 </div>
-<div id="fim-footer">
-    <div id="copyright"> Copyright © 2019 Acme Tunes</div>
-</div>
+<div id="fim-footer" class="center">Copyright © 2019 Acme Tunes</div>

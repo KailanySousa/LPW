@@ -81,8 +81,10 @@
                 </div>
             </div>
         </div>
-        <div id="trailer">
-            <iframe src="https://www.youtube.com/embed/Agqr8987-DA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="caixa-trailer">
+            <div id="trailer" class="center">
+             <video controls src="https://www.youtube.com/embed/Agqr8987-DA"></video>
+            </div>
         </div>
         <footer class="center">
            <?php require_once("footer.php") ?>

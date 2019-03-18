@@ -33,6 +33,9 @@ let mainSliderOptions = {
           }
           swiper.slides[swiper.activeIndex].querySelector('.caption').classList.add('show');
         },
+          click: function(){
+          mainSlider.autoplay.start();
+        },
         progress: function(){
           let swiper = this;
           for (let i = 0; i < swiper.slides.length; i++) {

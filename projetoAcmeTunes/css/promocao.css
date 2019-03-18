@@ -11,12 +11,12 @@
 }
 
 #caixa-produtos{
-    width: inherit;
+    width: 1200px;
     min-height: inherit;
     max-height: auto;
     overflow: hidden;
     float: left;
-    margin-left: 110px;
+    margin-left: 20px;
 }
 
 .produtos{

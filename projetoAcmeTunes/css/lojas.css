@@ -1,0 +1,67 @@
+@font-face{
+    font-family: fonte;
+    src: url(../fontes/COPRGTB.TTF);
+}
+
+*{
+    font-family: fonte;
+}
+
+/* ######################## CONTEUDO ########################*/
+#caixa-conteudo{
+    width: 1400px;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+#conteudo{
+    width: 1200px;
+    min-height: 600px;
+    max-height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    margin-left: 20px;
+    float: left;
+    background-color: black;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+
+#titulo{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 30px;
+    border-bottom: solid 1px #52D9FF;
+    color: white;
+}
+
+.caixa-loja{
+    width: 1000px;
+    height: 200px;
+    margin-top: 40px;
+    border: solid 1px #52D9FF;
+}
+
+.img-loja{
+    width: 300px;
+    height: inherit;
+    background-color: aliceblue;
+    float: left;
+}
+
+.endereco-loja{
+    width: 700px;
+    height: inherit;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 10px;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+

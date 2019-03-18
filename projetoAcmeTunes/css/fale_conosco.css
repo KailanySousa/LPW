@@ -52,45 +52,30 @@
     height: inherit;
 }
 
-#caixa-nome{
-    width: 340px;
-    height: 50px;
-    float: left;
+.style-input{
+    font-size: 16px;
+    border:solid 1px #52D9FF;
 }
 
-#caixa-profissao{
-    width: 170px;
-    height: 50px;
+#txt-nome{
+    width: 330px;
+    height: 40px;
     float: left;
 }
 
 #profissao{
-    width: inherit;
+    width: 170px;
     height: 40px;
-    font-size: 16px;
-     border:solid 1px #52D9FF;
-}
-
-#caixa-sexo{
-    width: 190px;
-    height: 50px;
     float: left;
-    color: white;
-    margin-left: 5px;
+    margin-left: 7px;
 }
 
 #slt-sexo{
-    width: 185px;
+    width: 188px;
     height: 40px;
     font-size: 16px;
-    margin-left: 5px;
-}
-
-#n{
-    width: 330px;
-    height: 40px;
-    font-size: 16px;
-    border:solid 1px #52D9FF;
+    margin-left: 7px;
+    float: left;
 }
 
 #caixa-telefone{
@@ -100,15 +85,12 @@
     padding-top: 6px;
     clear: both;
     float: left;
-
 }
 
 .telefone{
     width: 170px;
     height: 40px;
     float: left;
-    font-size: 16px;
-    border:solid 1px #52D9FF;
 }
 
 #caixa-email{
@@ -122,8 +104,6 @@
 #email{
     width: inherit;
     height: 40px;
-    font-size: 16px;
-    border:solid 1px #52D9FF;
 }
 
 #caixa-links{
@@ -141,8 +121,6 @@
 .links-input{
     width: inherit;
     height: inherit;
-    border:solid 1px #52D9FF;
-    font-size: 16px;
 }
 
 #caixa-info-produto{
@@ -155,8 +133,6 @@
     width: 697px;
     height: 50px;
     resize: none;
-    font-size: 16px;
-    border:solid 1px #52D9FF;
 }
 
 #caixa-sugestao{
@@ -170,8 +146,6 @@
     width: 697px;
     height:70px;
     resize: none;
-    font-size: 16px;
-    border:solid 1px #52D9FF;
 }
 
 #btn-enviar{

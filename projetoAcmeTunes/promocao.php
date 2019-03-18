@@ -7,6 +7,7 @@
 
         <link rel="stylesheet" type="text/css" href="css/menu.css">
         <link rel="stylesheet" type="text/css" href="css/promocao.css">
+        <link rel="stylesheet" type="text/css" href="css/itens_lateral.css">
         <link rel="stylesheet" type="text/css" href="css/slider.css">
         <link rel="stylesheet" type="text/css" href="css/footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -30,12 +31,13 @@
                 </div>
             </div>
             <div id="conteudo"> 
+                <?php  require_once("itens_lateral.php") ?>
                 <div id="caixa-produtos"> 
                     <div class="produtos"> 
                         <div class="produtos-itens"> 
-                            <div class="imagem-produto center"> 
+                            <figure class="imagem-produto center"> 
                                 <img src="img/hora_pesadelo.jpg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
                                 <p class="nome-filme"> A hora do pesadelo </p>
                                 
@@ -55,11 +57,11 @@
                         </div>
                         
                         <div class="produtos-itens"> 
-                            <div class="imagem-produto center"> 
+                            <figure class="imagem-produto center"> 
                                 <img src="img/bob.jpg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
-                                <p class="nome-filme"> Bob Esponja </p>
+                                <p class="nome-filme"> Caçador de Recompensas </p>
                                 
                                 <div class="precos center">
                                     <div class="preco-aluguel-compra preco-aluguel">
@@ -76,9 +78,9 @@
                             </div>
                         </div>
                         <div class="produtos-itens"> 
-                            <div class="imagem-produto center"> 
+                            <figure class="imagem-produto center"> 
                                 <img src="img/cacador_recompensas.jpg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
                                 <p class="nome-filme"> Caçador de Recompensas </p>
                                 
@@ -99,9 +101,9 @@
                     </div>
                     <div class="produtos">
                         <div class="produtos-itens"> 
-                            <div class="imagem-produto center">
+                            <figure class="imagem-produto center">
                                 <img src="img/coraline.jpg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
                                 <p class="nome-filme"> Coraline </p>
                                 
@@ -120,9 +122,9 @@
                             </div>
                         </div>
                         <div class="produtos-itens">
-                            <div class="imagem-produto center">
+                            <figure class="imagem-produto center">
                                 <img src="img/chamada_emergencia.jpeg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
                                 <p class="nome-filme">Chamada de Emergência </p>
                                 
@@ -141,9 +143,9 @@
                             </div>
                         </div>
                         <div class="produtos-itens"> 
-                            <div class="imagem-produto center"> 
+                            <figure class="imagem-produto center"> 
                                 <img src="img/sempre_lado.jpg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
                                 <p class="nome-filme"> Sempre ao seu lado </p>
                                 

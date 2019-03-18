@@ -3,6 +3,10 @@
     src: url(../fontes/COPRGTB.TTF);
 }
 
+*{
+    font-family: fonte;
+}
+
 /* ######################## CONTEUDO ########################*/
 
 #conteudo{
@@ -11,13 +15,12 @@
     max-height: auto;
     overflow: hidden;
     margin-bottom: 10px;
-    background-color: aliceblue;
+    background-color: black;
 }
 
 #titulo-destaque{
     width: inherit;
     height: 80px;
-    background-color: rebeccapurple;
     text-align:center;
     font-size: 45px;
     font-family: fonte;
@@ -25,10 +28,70 @@
     padding-top: 15px;
 }
 
-#ator-destaque{
+#caixa-ator-destaque{
     width: inherit;
-    height: 560px;
-    background-color: aqua;
+    height: 400px;
+}
+
+#img-ator-destaque{
+    width: 485px;
+    height: 400px;
+    background-color: aliceblue;
+    float: left;
+}
+
+#informacoes-ator{
+    width: 425px;
+    height: 400px;
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-top: 35px;
+    float: left;
+    margin-left: 15px;
+}
+
+#informacoes-ator:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#detalhes-ator-destaque{
+    width: 435px;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.itens-detalhes{
+    width: inherit;
+    height: 100px;
+    font-family: fonte;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding-top: 35px;
+    text-align:center;
+    border-top: solid 1px #52D9FF;
+    border-bottom: solid 1px #52D9FF;
+}
+
+.itens-detalhes p{
+    font-size: 18px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.itens-detalhes:hover{
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.itens-detalhes:hover p{
+    box-sizing: border-box;
+    padding-top: 15px;
+    opacity: 1;
+    visibility: visible;
 }
 
 #caixa-atores{
@@ -70,7 +133,8 @@
     width: inherit;
     height: 410px;
     box-sizing: border-box;
-    padding-top: 20px;
+    padding-top:35px;
+    margin-left: 40px;
 }
 
 /*####### EFEITO FLIP ########*/
@@ -152,4 +216,37 @@
     margin-left: 7px;
     box-sizing: border-box;
     padding-bottom:10px;
+}
+
+#container-biografia, #container-filmografia{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 999;
+    box-sizing: border-box;
+    padding-top: 160px;
+    display: none;
+}
+
+#modal-biografia, #modal-filmografia{
+    width: 1000px;
+    min-height: 700px;
+    max-height: auto;
+    overflow: hidden;
+    background-color: black;
+    margin-top: -80px;
+    border: solid 1px #52D9FF;
+}
+
+.fechar-modal{
+    width: 40px;
+    height:40px;
+    background-color: #52D9FF;
+    background-image: url(../img/close.png);
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 950px;
+    margin-top: 5px;
+    position: fixed;
 }

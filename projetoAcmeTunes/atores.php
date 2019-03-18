@@ -11,6 +11,46 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
 		<link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                
+               $(".biografia").click(function(){
+                  $("#container-biografia").toggle(400);
+               });
+            });
+            
+            $(document).ready(function(){
+                 $(".filmografia").click(function(){
+                  $("#container-filmografia").toggle(400);
+               });
+            })
+            
+            function visualizarBiografia(idItem){
+                $.ajax({
+                    type: "GET", //"POST"
+                    url: "modal_biografia.php",
+                    data: {codigo: idItem},
+                    success: function(dados){
+                        $("#modal-biografia").html(dados); //dados tem o conteúdo da pagina modal
+                    }
+                    
+                });
+            }
+            
+            function visualizarFilmografia(idItem){
+                $.ajax({
+                    type: "GET", //"POST"
+                    url: "modal_filmografia.php",
+                    data: {codigo: idItem},
+                    success: function(dados){
+                        $("#modal-filmografia").html(dados); //dados tem o conteúdo da pagina modal
+                    }
+                    
+                });
+            }
+        </script>
 
         <meta charset="utf-8">
     </head>
@@ -18,6 +58,13 @@
         <header>
             <?php require_once("menu.php")?>
         </header>
+        
+        <div id="container-biografia">
+            <div id="modal-biografia" class="center"></div>
+        </div>
+        <div id="container-filmografia">
+             <div id="modal-filmografia" class="center"></div>
+        </div>
         
         <div id="caixa-conteudo" class="center">
              <div id="slider">
@@ -143,8 +190,37 @@
                 </div>
             </div>
             <div id="conteudo"> 
-                <div id="ator-destaque" class="center">
-                    <div id="titulo-destaque"> <h1> Nome </h1> </div>
+                <div id="caixa-ator-destaque" class="center">
+                    <div id="ator-destaque">
+                        <div id="titulo-destaque"> <h1> Sanda Bullock </h1> </div>
+                        <div id="informacoes-ator">
+                            <p class="info-atores"> Nome </p>
+                            <p class="informacoes">Sandra Annette Bullock</p>
+                            <p class="info-atores"> Data de Nascimento </p>
+                            <p class="informacoes">26 de julho de 1964</p>
+                            <p class="info-atores"> Nacionalidade </p>
+                            <p class="informacoes"> Condado de Arlington, Virgínia, EUA</p>
+                            <p class="info-atores"> Atividades </p>
+                            <p class="informacoes">Atriz, produtora de cinema</p>
+                        </div>
+                        
+                        <figure id="img-ator-destaque">
+                            <img src="img/sandra-bullock.jpg">
+                        </figure>
+                        
+                        <div id="detalhes-ator-destaque">
+                            <div class="itens-detalhes biografia" onclick="visualizarBiografia(<?php echo(1)?>)"> Biografia
+                                <p> Clique para ver </p>
+                            </div>
+                            <div class="itens-detalhes filmografia" onclick="visualizarFilmografia(<?php echo(1)?>)"> Filmografia
+                                <p> Clique para ver </p>
+                            </div>
+                            <div class="itens-detalhes"> Galeria
+                                <p> Clique para ver </p>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
                 <div id="caixa-atores">
                     <h2 id="titulo-atores"> Outros atores e atrizes</h2>

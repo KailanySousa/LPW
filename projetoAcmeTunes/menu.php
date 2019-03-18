@@ -8,15 +8,15 @@
         <div class="menu-itens"> Destaques
             <div class="submenu"> 
                 <a href="promocao.php"><div class="submenu-itens"> Promoções </div></a>
-                <a href="filme_mes.php"><div class="submenu-itens" style="box-sizing; padding-top:5px;"> Filme do Mês </div></a>
+                <a href="filme_mes.php"><div class="submenu-itens" style="box-sizing;"> Filme do Mês </div></a>
             </div>
         </div>
         <a href="atores.php"><div class="menu-itens"> Atores</div></a>
         <div class="menu-itens"> A Acme
             <div class="submenu"> 
-                <div class="submenu-itens"> Lojas </div>
+                <a href="lojas.php"><div class="submenu-itens"> Lojas </div></a>
                 <a href="sobre.php"><div class="submenu-itens"> Sobre </div></a>
-                <a href="fale_conosco.php"><div class="submenu-itens"  style="box-sizing; padding-top:5px;"> Fale Conosco</div></a>
+                <a href="fale_conosco.php"><div class="submenu-itens"> Contato</div></a>
             </div>
         </div>
     </nav>

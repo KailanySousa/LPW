@@ -4,8 +4,7 @@
 }
 .rate {
     float: left;
-    height: 46px;
-    padding: 0 10px;
+    height: inherit;
 }
 .rate:not(:checked) > input {
     position:absolute;

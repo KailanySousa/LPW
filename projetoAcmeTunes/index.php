@@ -7,6 +7,7 @@
 
         <link rel="stylesheet" type="text/css" href="css/menu.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/itens_lateral.css">
         <link rel="stylesheet" type="text/css" href="css/slider.css">
         <link rel="stylesheet" type="text/css" href="css/footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -36,9 +37,9 @@
                 <div id="caixa-produtos"> 
                     <div class="produtos"> 
                         <div class="produtos-itens"> 
-                            <div class="imagem-produto center"> 
+                            <figure class="imagem-produto center"> 
                                 <img src="img/hora_pesadelo.jpg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
                                 <p class="info"> Nome: A hora do pesadelo</p> 
                                 <p class="info"> Descrição: </p>
@@ -47,9 +48,9 @@
                             <div class="detalhes-produto center"> Detalhes</div>
                         </div>
                         <div class="produtos-itens"> 
-                            <div class="imagem-produto center"> 
+                            <figure class="imagem-produto center"> 
                                 <img src="img/bob.jpg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
                                 <p class="info"> Nome: Bob Esponja - O Filme</p> 
                                 <p class="info"> Descrição: </p>
@@ -58,9 +59,9 @@
                             <div class="detalhes-produto center"> Detalhes</div>
                         </div>
                         <div class="produtos-itens"> 
-                            <div class="imagem-produto center"> 
+                            <figure class="imagem-produto center"> 
                                 <img src="img/cacador_recompensas.jpg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
                                 <p class="info"> Nome: Caçador de Recompensas</p> 
                                 <p class="info"> Descrição: </p>
@@ -71,9 +72,9 @@
                     </div>
                     <div class="produtos">
                         <div class="produtos-itens"> 
-                            <div class="imagem-produto center">
+                            <figure class="imagem-produto center">
                                 <img src="img/coraline.jpg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
                                 <p class="info"> Nome:</p> 
                                 <p class="info"> Descrição: </p>
@@ -82,9 +83,9 @@
                             <div class="detalhes-produto center"> Detalhes</div>
                         </div>
                         <div class="produtos-itens">
-                            <div class="imagem-produto center">
+                            <figure class="imagem-produto center">
                                 <img src="img/chamada_emergencia.jpeg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
                                 <p class="info"> Nome:</p> 
                                 <p class="info"> Descrição: </p>
@@ -93,9 +94,9 @@
                             <div class="detalhes-produto center"> Detalhes</div>
                         </div>
                         <div class="produtos-itens"> 
-                            <div class="imagem-produto center"> 
+                            <figure class="imagem-produto center"> 
                                 <img src="img/sempre_lado.jpg" alt="" title=""> 
-                            </div>
+                            </figure>
                             <div class="info-produto center">
                                 <p class="info"> Nome: Sempre ao seu lado</p> 
                                 <p class="info"> Descrição: </p>
