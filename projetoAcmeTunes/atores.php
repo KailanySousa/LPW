@@ -12,33 +12,15 @@
 		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
 		<link rel="stylesheet" href="css/style.css">
         <script src="js/jquery.js"></script>
+        <meta charset="utf-8">
         
         <script>
-            $(document).ready(function(){
-                
-               $(".biografia").click(function(){
-                  $("#container-biografia").toggle(400);
-               });
-            });
             
             $(document).ready(function(){
                  $(".filmografia").click(function(){
                   $("#container-filmografia").toggle(400);
                });
             })
-            
-            function visualizarBiografia(idItem){
-                $.ajax({
-                    type: "GET", //"POST"
-                    url: "modal_biografia.php",
-                    data: {codigo: idItem},
-                    success: function(dados){
-                        $("#modal-biografia").html(dados); //dados tem o conteúdo da pagina modal
-                    }
-                    
-                });
-            }
-            
             function visualizarFilmografia(idItem){
                 $.ajax({
                     type: "GET", //"POST"
@@ -49,19 +31,15 @@
                     }
                     
                 });
-            }
+            }  
+            
         </script>
 
-        <meta charset="utf-8">
     </head>
     <body>
         <header>
             <?php require_once("menu.php")?>
         </header>
-        
-        <div id="container-biografia">
-            <div id="modal-biografia" class="center"></div>
-        </div>
         <div id="container-filmografia">
              <div id="modal-filmografia" class="center"></div>
         </div>
@@ -75,7 +53,7 @@
                         <img src="img/sandra-bullock.jpg" alt="" title="" class="entity-img" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 1</p>
+                        <p class="title">Sandra Bullock</p>
                         <span class="caption"></span>
                       </div>
                     </div>
@@ -84,34 +62,34 @@
                         <img src="img/jennifer-aniston.jpg" alt="" title="" class="entity-img" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 2</p>
+                        <p class="title">Jennifer Aniston</p>
                         <span class="caption"></span>
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <figure class="slide-bgimg" style="background-image: url(img/gerald.jpg);">
-                        <img src="img/gerald.jpg" alt="" title="" class="entity-img" />
+                      <figure class="slide-bgimg" style="background-image: url(img/tom-cruise.jpg);">
+                        <img src="img/tom-cruise.jpg" alt="" title="" class="entity-img" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 3</p>
+                        <p class="title">Tom Cruise</p>
                         <span class="caption"></span>
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <figure class="slide-bgimg" style="background-image: url(img/depp.jpg);">
-                        <img src="img/depp.jpg" alt="" title=""  class="entity-img" />
+                      <figure class="slide-bgimg" style="background-image: url(img/jolie.jpg);">
+                        <img src="img/jolie.jpg" alt="" title=""  class="entity-img" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 4</p>
+                        <p class="title">Angelina Jolie</p>
                         <span class="caption"></span>
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <figure class="slide-bgimg" style="background-image: url(img/kelly.jpg);">
-                        <img src="img/kelly.jpg" alt="" title="" class="entity-img" />
+                      <figure class="slide-bgimg" style="background-image: url(img/dwayne.jpg);">
+                        <img src="img/dwayne.jpg" alt="" title="" class="entity-img" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 5</p>
+                        <p class="title">Dwayne Johnson</p>
                         <span class="caption"></span>
                       </div>
                     </div>
@@ -120,7 +98,7 @@
                         <img src="img/eddie.jpg" alt="" title="" class="entity-img" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 6</p>
+                        <p class="title">Eddie Murphy</p>
                         <span class="caption"></span>
                       </div>
                     </div>
@@ -138,7 +116,7 @@
                         <img src="img/sandra-bullock.jpg" class="entity-img" alt="" title="" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 1</p>
+                        <p class="title">Sandra Bullock</p>
                       </div>
                     </div>
                     <div class="swiper-slide">
@@ -146,31 +124,31 @@
                         <img src="img/jennifer-aniston.jpg" class="entity-img" alt="" title="" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 2</p>
+                        <p class="title">Jennifer Aniston</p>
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <figure class="slide-bgimg" style="background-image: url(img/gerald.jpg);">
-                        <img src="img/gerald.jpg" class="entity-img" alt="" title="" />
+                      <figure class="slide-bgimg" style="background-image: url(img/tom-cruise.jpg);">
+                        <img src="img/tom-cruise.jpg" class="entity-img" alt="" title="" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 3</p>
+                        <p class="title">Tom Cruise</p>
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <figure class="slide-bgimg" style="background-image: url(img/depp.jpg);">
-                        <img src="img/depp.jpg" class="entity-img" alt="" title="" />
+                      <figure class="slide-bgimg" style="background-image: url(img/jolie.jpg);">
+                        <img src="img/jolie.jpg" class="entity-img" alt="" title="" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 4</p>
+                        <p class="title">Angelina Jolie</p>
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <figure class="slide-bgimg" style="background-image: url(img/kelly.jpg);">
-                        <img src="img/kelly.jpg" class="entity-img" alt="" title="" />
+                      <figure class="slide-bgimg" style="background-image: url(img/dwayne.jpg);">
+                        <img src="img/dwayne.jpg" class="entity-img" alt="" title="" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 5</p>
+                        <p class="title">Dwayne Johnson</p>
                       </div>
                     </div>
                     <div class="swiper-slide">
@@ -178,7 +156,7 @@
                         <img src="img/eddie.jpg" class="entity-img" alt="" title="" />
                       </figure>
                       <div class="content">
-                        <p class="title">Ator 6</p>
+                        <p class="title">Eddie Murphy</p>
                       </div>
                     </div>
                   </div>
@@ -205,17 +183,12 @@
                         </div>
                         
                         <figure id="img-ator-destaque">
-                            <img src="img/sandra-bullock.jpg">
+                            <img src="img/sandra-bullock.jpg" alt="" title="">
                         </figure>
                         
                         <div id="detalhes-ator-destaque">
-                            <div class="itens-detalhes biografia" onclick="visualizarBiografia(<?php echo(1)?>)"> Biografia
-                                <p> Clique para ver </p>
-                            </div>
+                            
                             <div class="itens-detalhes filmografia" onclick="visualizarFilmografia(<?php echo(1)?>)"> Filmografia
-                                <p> Clique para ver </p>
-                            </div>
-                            <div class="itens-detalhes"> Galeria
                                 <p> Clique para ver </p>
                             </div>
                         </div>
@@ -226,10 +199,10 @@
                     <h2 id="titulo-atores"> Outros atores e atrizes</h2>
                     <div id="atores">
                         <div class="imagens-atores">
-                            <div class="flip-box">
-                              <div class="flip-box-inner">
+                            
+                              <div class="atores">
                                 <figure class="img-atores">
-                                  <img src="img/depp.jpg" alt="" title="">
+                                  <img src="img/jdepp.jpg" alt="" title="">
                                 </figure>
                                 <div class="texto-atores">
                                   <h2 class="nome-ator"> Jhonny Depp</h2>
@@ -243,14 +216,13 @@
                                     <p class="informacoes">Ator, músico, produtor e cineasta</p>
                                 </div>
                               </div>
-                            </div>
                             
-                            <div class="flip-box">
-                              <div class="flip-box-inner">
+                               <div class="atores">
                                 <figure class="img-atores">
                                   <img src="img/jennifer-aniston.jpg" alt="" title="">
                                 </figure>
-                                <div class="texto-atores">
+                                   
+                                   <div class="texto-atores">
                                   <h2 class="nome-ator"> Jennifer Aniston</h2>
                                     <p class="info-atores"> Nome </p>
                                     <p class="informacoes">Jennifer Joanna Aniston</p>
@@ -262,10 +234,8 @@
                                     <p class="informacoes">Atriz</p>
                                 </div>
                               </div>
-                            </div>
                             
-                            <div class="flip-box">
-                              <div class="flip-box-inner">
+                             <div class="atores">
                                 <figure class="img-atores">
                                   <img src="img/gerald.jpg" alt="" title="">
                                 </figure>
@@ -281,10 +251,8 @@
                                     <p class="informacoes">Ator, Produtor, Cantor, Ex-Advogado</p>
                                 </div>
                               </div>
-                            </div>
                             
-                            <div class="flip-box">
-                              <div class="flip-box-inner">
+                              <div class="atores">
                                 <figure class="img-atores">
                                   <img src="img/kelly.jpg" alt="" title="">
                                 </figure>
@@ -300,14 +268,12 @@
                                     <p class="informacoes">Atriz, Roteirista, Diretora e Produtora</p>
                                 </div>
                               </div>
-                            </div>
                         </div>
 
                         <div class="imagens-atores">
-                            <div class="flip-box">
-                              <div class="flip-box-inner">
+                              <div class="atores">
                                 <figure class="img-atores">
-                                  <img src="" alt="" title="">
+                                  <img src="img/lana-parrilla.jpg" alt="" title="">
                                 </figure>
                                 <div class="texto-atores">
                                   <h2 class="nome-ator"> ...</h2>
@@ -321,12 +287,10 @@
                                     <p class="informacoes">...</p>
                                 </div>
                               </div>
-                            </div>
                             
-                            <div class="flip-box">
-                              <div class="flip-box-inner">
+                              <div class="atores">
                                 <figure class="img-atores">
-                                  <img src="" alt="" title="">
+                                  <img src="img/josh.jpg" alt="" title="">
                                 </figure>
                                 <div class="texto-atores">
                                   <h2 class="nome-ator"> ...</h2>
@@ -340,12 +304,10 @@
                                     <p class="informacoes">...</p>
                                 </div>
                               </div>
-                            </div>
                             
-                            <div class="flip-box">
-                              <div class="flip-box-inner">
+                              <div class="atores">
                                 <figure class="img-atores">
-                                  <img src="" alt="" title="">
+                                  <img src="img/jennifer-morrison.jpg" alt="" title="">
                                 </figure>
                                 <div class="texto-atores">
                                   <h2 class="nome-ator"> ...</h2>
@@ -359,12 +321,10 @@
                                     <p class="informacoes">...</p>
                                 </div>
                               </div>
-                            </div>
                             
-                            <div class="flip-box">
-                              <div class="flip-box-inner">
+                              <div class="atores">
                                 <figure class="img-atores">
-                                  <img src="" alt="" title="">
+                                  <img src="img/tyler.jpg" alt="" title="">
                                 </figure>
                                 <div class="texto-atores">
                                   <h2 class="nome-ator"> ...</h2>
@@ -378,7 +338,6 @@
                                     <p class="informacoes">...</p>
                                 </div>
                               </div>
-                            </div>
                         </div>
 
                     </div>

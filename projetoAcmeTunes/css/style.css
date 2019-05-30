@@ -6,7 +6,7 @@
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
     
-    cursor: auto;
+    cursor: default;
 }
 
 *, *:before, *:after {

@@ -67,9 +67,9 @@
 
                                 </div>
                                 <div id="caixa-telefone">
-                                    <input class="telefone style-input" type="tel" name="txt-telefone" id="txt-telefone" value="" placeholder="Telefone"/>
+                                    <input class="telefone style-input" type="tel" name="txt-telefone" id="txt-telefone" value="" placeholder="Telefone" pattern="^[(]\d{2}[)]\d{4}-\d{4}$"/>
                                     
-                                    <input class="telefone style-input" style="margin-left: 8px;" type="tel" name="txt-celular" id="txt-celular" value="" required placeholder="Celular">
+                                    <input class="telefone style-input" style="margin-left: 8px;" type="tel" name="txt-celular" id="txt-celular" value="" required placeholder="Celular" pattern="^[(]\d{2}[)]\d{5}-\d{4}$">
                                 </div>
                                 
                                 <div id="caixa-email">                

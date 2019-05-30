@@ -2,7 +2,8 @@ let telefone = document.getElementById('txt-telefone');
 let celular = document.getElementById('txt-celular');
 let nome = document.getElementById('txt-nome');
 
-const mascNome = () =>{
+//FUNÇÃO PARA SÓ PERMITIR QUE LETRAS SEJAM DIGITADAS NA CAIXA NOME
+function mascNome(){
 
     let texto = nome.value;
 
@@ -11,8 +12,8 @@ const mascNome = () =>{
     nome.value = texto;
 }
 
+//FUNÇÃO PARA SÓ PERMITIR QUE NUMEROS SEJAM DIGITADOS NA CAIXA CELULAR, E COM UM PADRÃO ESPECIFICO
 function mascCelular(){
-
 
     celular.maxLength = "14";
 
@@ -30,9 +31,9 @@ function mascCelular(){
 
 }
 
+//FUNÇÃO PARA SÓ PERMITIR QUE NUMEROS SEJAM DIGITADOS NA CAIXA TELEFONE, E COM UM PADRÃO ESPECIFICO
 function mascTelefone (){
-
-
+    
     telefone.maxLength = "13";
 
     let texto = telefone.value;

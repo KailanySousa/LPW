@@ -27,8 +27,7 @@
                     </div>
                     <div class="icones-sobre" style="background-image:url(img/hourglass.png);"></div>
                     <div class="textos"> 
-						<p> Canis Latrans começou alugando e vendendo filmes na garagem de casa.</p>
-						<p> Em 2012 alugou um ponto comercial e investiu ainda mais, inaugurando a primeira loja Acme Tunes.</p>
+						<p> Em 2012 alugou um ponto comercial, inaugurando a primeira loja Acme Tunes.</p>
 					</div>
                     
                 </div>
@@ -38,18 +37,8 @@
                     </div>
                     <div class="icones-sobre" style="background-image:url(img/goal.png);"></div>
                     <div class="textos"> 
-						<p> Trazer filmes de qualidade, afim de oferecer diversas opções.</p>
-						<p>E, assim, agregar inovação e credibilidade aos produtos e serviços oferecidos aos clientes. </p>
+						<p>Agregar inovação e credibilidade aos produtos e serviços oferecidos aos clientes. </p>
 					</div>
-                    
-                    
-<!--
-                    <div class="textos"> 
-                        <p> O surgimento da locadora veio da admiração que o Sr. Canis Latrans tinha pelos filmes.</p>
-                        <p> Com isso nosso principal objetivo é trazer filmes de qualidade que atendam todos os gostos.</p>
-                        <p> Para alcançar nosso objetivo trouxemos nossos serviços para esta plataforma Web, assim nossos clientes podem escolher um filme com apenas um clique.</p>
-                    </div>
--->
                 </div>
                 <div class="img-sobre">
                     <div class="titulo-sobre">
@@ -66,8 +55,7 @@
                     </div>
                     <div class="icones-sobre" style="background-image:url(img/trophy.png);"></div>
                      <div class="textos"> 
-                         <p> Recebeu o Prêmio de Melhor Locadora pelo Jornal Folha de São Paulo, em 2014. </p>
-                        <p>Além de ser considerada a melhor locadora com mais avaliações positivas.</p>
+                        <p>Considerada a melhor locadora com mais avaliações positivas.</p>
 					</div>
                 </div>
             </div>

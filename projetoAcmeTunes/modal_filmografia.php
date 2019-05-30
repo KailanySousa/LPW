@@ -9,58 +9,6 @@
     
 </script>
 
-<style>
-    @font-face{
-    font-family: fonte;
-    src: url(../fontes/COPRGTB.TTF);
-    }
-    
-    #titulo{
-        width: inherit;
-        height: 60px;
-        font-size: 30px;
-        font-family: fonte;
-        text-align:center;
-        box-sizing: border-box;
-        padding-top: 10px;
-    }
-    
-    #conteudo-filmografia{
-        width: inherit;
-        min-height:650px;
-        max-height: auto;
-        overflow: auto;
-    }
-    
-    #caixa-filmografia{
-        width: 900px;
-        height: 100px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 18px;
-        font-family: fonte;
-    }
-    
-    .linha{
-        width: inherit;
-        height: 60px;
-    }
-    
-    .coluna-nome, .coluna-dados{
-        width: 300px;
-        height: inherit;
-        border-bottom: solid 1px #52D9FF;
-        box-sizing: border-box;
-        padding-top: 20px;
-        float: left;
-        text-align: center;
-    }
-    
-    .coluna-nome{
-        font-size: 20px;
-    }
-    
-</style>
 
 <link rel="stylesheet" href="css/rate.css">
 
