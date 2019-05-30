@@ -1,0 +1,259 @@
+/* ######################## CONTEUDO ########################*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#conteudo{
+    width: inherit;
+    min-height: 500px;
+    max-height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#caixa-filme{
+    width: 1200px;
+    min-height: 440px;
+    max-height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+
+#redes-socias{
+    margin-top: 150px;
+}
+
+/* ######################## DETALHES FILME DO MÊS ########################*/
+
+#detalhes-filme{
+    width: 680px;
+    min-height: 400px;
+    max-height: auto;
+    overflow: hidden;
+    background-color: black;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-family: fonte;
+    border: solid 1px #52D9FF;
+}
+
+#img-filme{
+    width: 500px;
+    height: 400px;
+    background-color: #52D9FF;
+    float: left;
+    margin-bottom: 13px;
+}
+
+#titulo-filme{
+    width: inherit;
+    height: 50px;
+}
+
+#titulo-filme h1{
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+#avaliacao{
+    width: 220px;
+    height: 35px;
+}
+
+#estrelas{
+    width: 170px;
+    height: inherit;
+    float: left;
+}
+
+#favorito{
+    width: 50px;
+    height: inherit;
+    float: left;
+}
+
+#genero{
+    width: inherit;
+    height: 40px;
+    clear: both;
+}
+
+#genero h2{
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#info-filme{
+    width: 650px;
+    height: 40px;
+    clear: both;
+}
+
+#classificacao{
+    width: 40px;
+    height: inherit;
+    background-color: #52D9FF;
+    float: left;
+    border-radius: 3px;
+}
+
+#ano{
+    width: 60px;
+    height: inherit;
+    float: left;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-right: solid 1px white;
+    text-align:center;
+}
+
+#pais{
+    width: 135px;
+    height: inherit;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    border-right: solid 1px white;
+    text-align:center;
+}
+
+#duracao{
+    width: 120px;
+    height: inherit;
+    float: left;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align:center;
+}
+
+#dublabo{
+    width: 90px;
+    margin-left: 5px;
+}
+
+.opcoes-filme{
+    background-color: rgb(44, 179, 186);
+    height: 30px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-top: 6px;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+    float: left;
+}
+
+#legendado{
+    width: 107px;
+    margin-left: 6px;
+}
+
+#hd{
+    width: 60px;
+    margin-left: 6px;
+}
+
+#diretor{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#atores{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#sinopse{
+    width: 670px;
+    min-height: 100px;
+    max-height: auto;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-top: 15px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+#sinopse::first-letter{
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+/* ######################## PREÇO FILME ########################*/
+
+#preco{
+    width: inherit;
+    height: 50px;
+    clear: both;
+    box-sizing: border-box;
+    padding-left: 360px;
+}
+
+.aluguel-compra{
+    min-width: 400px;
+    max-width: auto;
+    overflow: hidden;
+    height: 50px;
+    background-color: black;
+    float: left;
+    margin-left: 10px;
+    margin-top: 23px;
+    text-align:center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-size: 18px;
+    border: solid 1px #52D9FF;
+    font-family: fonte;
+}
+
+.aluguel-compra:hover{
+    cursor: pointer;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    transition: 0.5s;
+    color: black;
+}
+
+/* ######################## TRAILER ########################*/
+
+#caixa-trailer{
+    width: inherit;
+    height: 600px;
+    background-image: url(../img/bob.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    padding-top: 50px;
+    margin-top: -30px;
+}
+
+#trailer{
+    width: 1400px;
+    box-sizing: border-box;
+    padding-left: 350px;
+}
+
+iframe{
+    width: 700px;
+    height: 500px;
+    opacity: 1;
+}

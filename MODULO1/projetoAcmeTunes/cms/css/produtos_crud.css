@@ -1,0 +1,175 @@
+
+/* CRUD PRODUTOS*/
+
+
+#btn-cadastrar{
+    width:305px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 15px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border: solid 1px #52D9FF;
+    color: black;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#caixa-menu-lateral{
+    width: 150px;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+
+.itens-menu{
+    width: inherit;
+    height: 50px;
+    border: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin-top: 5px;
+}
+
+.itens-menu:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #52D9FF;
+}
+
+#caixa-menu{
+    width: 800px;
+    min-height: 50px;
+    max-height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+}
+
+.menu{
+    width: inherit;
+    min-height: inherit;
+    max-height: auto;
+    overflow: hidden;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.titulo-menu:hover{
+    transition: 1s;
+    cursor: pointer;
+    border-left: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+#cadastro-produtos{
+    width: 560px;
+    height: 610px;
+    border: solid 1px #52D9FF;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+#cadastro-diretores, #cadastro-filme-diretores, #cadastro-filme-atores, #cadastro-filme-generos{
+    width: 290px;
+    height: 130px;
+    border: solid 1px #52D9FF;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+#cadastro-filme-diretores, #cadastro-filme-atores, #cadastro-filme-generos{
+    height: 210px;
+}
+
+#caixa-titulo, #caixa-lancamento, #caixa-sinopse, #caixa-sinopse, #caixa-imagem, .caixa-destaque, #caixa-pais, .caixa-filme-diretor{
+    width: 270px;
+    height: 80px;
+    float: left;
+}
+
+#caixa-imagem{
+    height: 220px;
+}
+
+#imagem{
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+}
+
+#caixa-titulo p, #caixa-lancamento p, #caixa-sinopse p, #caixa-imagem p, .caixa-destaque p, .caixa-filme-diretor p{
+    width: inherit;
+    min-height: 40px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#caixa-titulo input, #caixa-lancamento input, #caixa-sinopse input, #caixa-imagem input, .caixa-destaque select, .caixa-filme-diretor select{
+    width: 260px;
+    height: 30px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    float: left;
+}
+
+#caixa-imagem input{
+    margin-top: 3px;
+}
+
+.caixa-destaque select{
+    width: 260px;
+    margin-left: 15px;
+}
+
+.btn-cadastrar{
+    width: 530px;
+    height: 35px;
+    font-size: 18px;
+    margin-left: 15px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border: solid 1px #52D9FF;
+    color: black;
+    float: left;
+}
+
+.btn-cadastrar:hover{
+    background:linear-gradient(to bottom, black 5%, black  100%);
+    color: white;
+    cursor: pointer;
+}
+
+#cadastro-diretores .btn-cadastrar{
+    width: 265px;
+}
+
+#cadastro-filme-diretores .btn-cadastrar, #cadastro-filme-atores .btn-cadastrar, #cadastro-filme-generos .btn-cadastrar{
+    width: 262px;
+}
+
+#registros{
+    width: 800px;
+    min-height: 100px;
+    max-height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.titulo-coluna{
+    width: 150px;
+}
+
+.dados-coluna{
+    text-align: center;
+    font-size: 16px;
+}

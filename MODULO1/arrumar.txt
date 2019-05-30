@@ -1,0 +1,2 @@
+fazer lógica de não cadastrar várias promoções em vários filmes
+filtro cidades por estado

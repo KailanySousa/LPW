@@ -1,0 +1,210 @@
+@font-face{
+    font-family: fonte;
+    src: url(../fontes/coprgtb-webfont.woff);
+}
+/* ######################## CONTEUDO FILMES ########################*/
+
+/* DESKTOP*/
+@media screen and (min-width:1000px){
+    #conteudo{
+        width: inherit;
+        min-height: 600px;
+        max-height: auto;
+        overflow: hidden;
+        margin-bottom: 10px;
+        background-color: #26292d;
+    }
+    
+    #caixa-produtos{
+        width: 1220px;
+        min-height: inherit;
+        max-height: auto;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .produtos{
+        width: inherit;
+        height: 295px;
+        box-sizing: border-box;
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+    
+    .produtos-itens{
+        width: 360px;
+        height: 430px;
+        margin-top: 10px;
+        float: left;
+        margin-right: 10px;
+        border: solid 1px #52D9FF;
+        margin-bottom: 10px;
+        background-color: black;
+    }
+    
+    .imagem-produto{
+        width:210px;
+        height: 260px;
+        background-color: white;
+        margin-top: 8px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    img:hover{
+        cursor: pointer;
+       -webkit-transform: scale(1.1) ;
+        -moz-transform: scale(1.1) ;
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1) ;
+        transform: scale(1.1) ;
+        transition: 1s;
+    }
+    
+    .info-produto{
+        width: 300px;
+        height: 100px;
+        box-sizing: border-box;
+        padding-top: 10px;
+        color: white;
+        margin-top: 10px;
+        font-family: fonte;
+    }
+    
+    .info{
+        margin-top: 13px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .nome{
+        text-align: center;
+    }
+    
+    .detalhes-produto{
+        width: 130px;
+        height:35px; 
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 7px;
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 195px;
+        background-color: black;
+        border: solid 1px #52D9FF;
+        font-family: fonte;
+    }
+    
+    .detalhes-produto:hover{
+        background-color: #52D9FF;
+        color: black;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-device-width:680px){
+    #conteudo{
+        width: inherit;
+        min-height: 600px;
+        max-height: auto;
+        overflow: hidden;
+        margin-bottom: 10px;
+        background-color: #26292d;
+    }
+    
+    #caixa-produtos{
+        width: 1220px;
+        min-height: inherit;
+        max-height: auto;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .produtos{
+        width: inherit;
+        height: 295px;
+        box-sizing: border-box;
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+    
+    .produtos-itens{
+        width: 360px;
+        height: 430px;
+        margin-top: 10px;
+        float: left;
+        margin-right: 10px;
+        border: solid 1px #52D9FF;
+        margin-bottom: 10px;
+        background-color: black;
+    }
+    
+    .imagem-produto{
+        width:210px;
+        height: 260px;
+        background-color: white;
+        margin-top: 8px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    img:hover{
+        cursor: pointer;
+       -webkit-transform: scale(1.1) ;
+        -moz-transform: scale(1.1) ;
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1) ;
+        transform: scale(1.1) ;
+        transition: 1s;
+    }
+    
+    .info-produto{
+        width: 300px;
+        height: 100px;
+        box-sizing: border-box;
+        padding-top: 10px;
+        color: white;
+        margin-top: 10px;
+        font-family: fonte;
+    }
+    
+    .info{
+        margin-top: 13px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .nome{
+        text-align: center;
+    }
+    
+    .detalhes-produto{
+        width: 130px;
+        height:35px; 
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 7px;
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 195px;
+        background-color: black;
+        border: solid 1px #52D9FF;
+        font-family: fonte;
+    }
+    
+    .detalhes-produto:hover{
+        background-color: #52D9FF;
+        color: black;
+        cursor: pointer;
+    }
+}

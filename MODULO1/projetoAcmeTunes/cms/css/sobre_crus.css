@@ -1,0 +1,79 @@
+#cadastro-sobre{
+    width: 335px;
+    height: 510px;
+    border: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-left: 6px;
+    padding-top: 10px;
+    float: left;
+}
+
+#caixa-titulo{
+    width: 320px;
+    height: 70px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+#caixa-titulo input{
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#caixa-texto{
+    width: 320px;
+    height: 300px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+#caixa-texto textarea{
+    width: 300px;
+    height: 265px;
+    resize: none;
+    margin-top: 5px;
+}
+
+#caixa-imagem input{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+
+#btn-cadastrar{
+    width: 305px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border: solid 1px #52D9FF;
+    color: black;
+    clear: both;
+}
+
+#btn-cadastrar:hover{
+    background:linear-gradient(to bottom, black 5%, black  100%);
+    color: white;
+    cursor: pointer;
+}
+
+#registros{
+    width: 150px;
+    min-height: 100px;
+    max-height: auto;
+    overflow: hidden;
+    margin-left: 0px;
+    float: left;
+}
+
+.titulo-coluna{
+    width: 75px;
+}
+
+.dados-coluna{
+    text-align: center;
+    font-size: 16px;
+}

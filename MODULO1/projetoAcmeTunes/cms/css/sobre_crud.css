@@ -1,0 +1,124 @@
+#titulo-crud{
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+#cadastro-sobre{
+    width: 700px;
+    height: 330px;
+    border: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-left: 6px;
+    padding-top: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#caixa-titulo{
+    width: 320px;
+    height: 70px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    float: left
+}
+
+#caixa-titulo input{
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#caixa-imagem{
+    width: 260px;
+    height: 70px;
+    float: left;
+}
+
+#caixa-imagem input{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#caixa-texto{
+    width: 390px;
+    height: 120px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    float: left;
+}
+
+#caixa-texto textarea{
+    width: 380px;
+    height: 160px;
+    resize: none;
+    margin-top: 5px;
+}
+
+#caixa-foto{
+    width: 220px;
+    height: 170px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#caixa-foto img{
+    width: inherit;
+    height: inherit;
+}
+
+#btn-cadastrar{
+    width: 625px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border: solid 1px #52D9FF;
+    color: black;
+    clear: both;
+}
+
+#btn-cadastrar:hover{
+    background:linear-gradient(to bottom, black 5%, black  100%);
+    color: white;
+    cursor: pointer;
+}
+
+#registros{
+    width: 920px;
+    min-height: 100px;
+    max-height: auto;
+    overflow: hidden;
+    margin-left: 10px;
+    float: left;
+}
+
+tr{
+    width: inherit;
+    height: 70px;
+}
+
+.titulo-coluna{
+    width: 230px;
+    height: inherit;
+}
+
+.dados-coluna{
+    width: 200px;
+    height: inherit;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dados-coluna img{
+    width: 100px;
+    height: 70px;
+}

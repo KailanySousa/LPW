@@ -1,0 +1,98 @@
+#titulo-crud{
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+#cadastro-promocoes{
+    width: 440px;
+    height: 140px;
+    border: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-left: 6px;
+    padding-top: 10px;
+    margin-left: 270px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#caixa-percentual{
+    width: 120px;
+    height: 70px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    float: left;
+}
+
+#caixa-percentual input{
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#caixa-filme{
+    width: 305px;
+    height: 70px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    float: left;
+}
+
+#caixa-filme select{
+    width: 290px;
+    height: 36px;
+    margin-top: 5px;
+}
+
+
+#btn-cadastrar{
+    width: 410px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border: solid 1px #52D9FF;
+    color: black;
+}
+
+#btn-cadastrar:hover{
+    background:linear-gradient(to bottom, black 5%, black  100%);
+    color: white;
+    cursor: pointer;
+}
+
+#registros{
+    width: 920px;
+    min-height: 100px;
+    max-height: auto;
+    overflow: hidden;
+    margin-left: 10px;
+    float: left;
+}
+
+tr{
+    width: inherit;
+    height: 70px;
+}
+
+.titulo-coluna{
+    width: 230px;
+    height: inherit;
+}
+
+.dados-coluna{
+    width: 200px;
+    height: inherit;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dados-coluna img{
+    width: 100px;
+    height: 70px;
+}

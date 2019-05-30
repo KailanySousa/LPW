@@ -1,0 +1,29 @@
+/* ######################## MENU LATERAL ########################*/
+
+#itens-lateral{
+    width: 180px;
+    min-height: inherit;
+    max-height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+.itens{
+    width: inherit;
+    height: 50px;
+    background-color: black;
+    border: solid 1px #52D9FF;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 13px;
+    font-family: fonte;
+}
+
+.itens:hover{
+    background-color: #52D9FF;
+    cursor: pointer;
+    color: black;
+    border-radius: 3px;
+}

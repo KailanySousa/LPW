@@ -1,0 +1,102 @@
+
+/* CRUD NIVEL DE AUTENTICAÇÃO */
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cadastro-nivel{
+    width: 630px;
+    height: 220px;
+    border: solid 1px #52D9FF;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+#caixa-nome-usuario, #caixa-email-usuario, .caixa-senha, #caixa-nivel{
+    width: 280px;
+    height: 80px;
+    float: left;
+}
+
+#caixa-email-usuario{
+    width: 310px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.caixa-senha{
+    width: 220px;
+}
+
+#caixa-nivel{
+    width: 180px;
+    margin-left: 3px;
+}
+
+#caixa-nome-usuario p, #caixa-email-usuario p, .caixa-senha p, #caixa-nivel p{
+    width: inherit;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+#caixa-nome-usuario input, #caixa-email-usuario input, .caixa-senha input, #caixa-nivel select{
+    width: 270px;
+    height: 30px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+#caixa-email-usuario input{
+    width: 305px;
+}
+
+.caixa-senha input{
+    width: 205px;
+}
+
+#caixa-nivel select{
+    width: 157px;
+    height: 35px;
+}
+
+#btn-cadastrar{
+    width: 600px;
+    height: 35px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 15px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border: solid 1px #52D9FF;
+    color: black;
+    float: left;
+}
+
+#btn-cadastrar:hover{
+    background:linear-gradient(to bottom, black 5%, black  100%);
+    color: white;
+    cursor: pointer;
+}
+
+#registros{
+    width: 900px;
+    min-height: 100px;
+    max-height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.titulo-coluna{
+    width: 300px;
+}
+
+.dados-coluna{
+    text-align: center;
+    font-size: 16px;
+}

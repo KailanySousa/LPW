@@ -1,0 +1,313 @@
+@font-face{
+    font-family: fonte;
+    src: url(../fontes/coprgtb-webfont.woff);
+}
+
+*{
+    font-family: fonte;
+}
+
+
+#mensagem{
+    width: inherit;
+    height: inherit;
+    background-color: black;
+}
+
+#mensagem p{
+    width: inherit;
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    font-family: fonte;
+    margin-top: 250px;
+}
+
+
+#container-biografia, #container-filmografia{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 999;
+    box-sizing: border-box;
+    padding-top: 100px;
+    display: none;
+}
+
+#modal-biografia, #modal-filmografia{
+    width: 1000px;
+    min-height: 700px;
+    max-height: auto;
+    overflow: hidden;
+    background-color: black;
+    margin-top: -80px;
+    border: solid 1px #52D9FF;
+}
+
+.fechar-modal{
+    width: 40px;
+    height:40px;
+    background-color: #52D9FF;
+    background-image: url(../img/close.png);
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 950px;
+    margin-top: 5px;
+    position: fixed;
+}
+
+/* ################ MODAL FILMOGRAFIA ######################*/
+
+#titulo{
+    width: inherit;
+    height: 60px;
+    font-size: 30px;
+    font-family: fonte;
+    text-align:center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#conteudo-filmografia{
+    width: inherit;
+    min-height:650px;
+    max-height: auto;
+    overflow: auto;
+}
+
+#caixa-filmografia{
+    width: 900px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family: fonte;
+}
+
+.linha{
+    width: inherit;
+    height: 60px;
+}
+
+.coluna-nome, .coluna-dados{
+    width: 300px;
+    height: inherit;
+    border-bottom: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-top: 20px;
+    float: left;
+    text-align: center;
+}
+
+.coluna-nome{
+    font-size: 20px;
+}
+
+/* ######################## CONTEUDO ATOR DESTAQUE ########################*/
+
+#conteudo{
+    width: inherit;
+    min-height: 600px;
+    max-height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+#titulo-destaque{
+    width: inherit;
+    height: 80px;
+    text-align:center;
+    font-size: 45px;
+    font-family: fonte;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+#caixa-ator-destaque{
+    width: inherit;
+    height: 400px;
+}
+
+#img-ator-destaque{
+    width: 485px;
+    height: 400px;
+    background-color: aliceblue;
+    float: left;
+}
+
+#informacoes-ator{
+    width: 425px;
+    min-height: 400px;
+    max-height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-top: 35px;
+    float: left;
+    margin-left: 15px;
+}
+
+#informacoes-ator:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#detalhes-ator-destaque{
+    width: 435px;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 130px;
+    margin-left: 20px;
+}
+
+.itens-detalhes{
+    width: inherit;
+    height: 100px;
+    font-family: fonte;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding-top: 35px;
+    text-align:center;
+    border-top: solid 1px #52D9FF;
+    border-bottom: solid 1px #52D9FF;
+}
+
+.itens-detalhes p{
+    font-size: 18px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.itens-detalhes:hover{
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.itens-detalhes:hover p{
+    box-sizing: border-box;
+    padding-top: 15px;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ######################## CONTEUDO ATORES ########################*/
+
+#caixa-atores{
+    width: inherit;
+    min-height: 1000px;
+    max-height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 35px;
+    background-color: black;
+}
+
+#atores{
+    width: 1350px;
+    min-height:470px;
+    max-height: auto;
+    overflow: hidden;
+    border: solid 1px #52D9FF;
+    margin-top: 20px;
+    margin-left: 25px;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+}
+
+#titulo-atores{
+    width: 420px;
+    height: 40px;
+    background-color: black;
+    font-size: 30px;
+    font-family: fonte;
+    margin-left: 50px;
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 5px;
+    text-align:center;
+}
+
+.imagens-atores{
+    width: inherit;
+    height: 410px;
+    box-sizing: border-box;
+    padding-top:35px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.atores {
+    width: 320px;
+    height: 390px;
+    float: left;
+    margin-right: 10px;
+}
+
+.img-atores{
+    width:inherit;
+    height: inherit;
+    background-color: aqua;
+    float: left;
+}
+
+.texto-atores{
+    background-color: black;
+    width: 320px;
+    height: 390px;
+    border: solid 1px #52D9FF;
+    margin-top: -390px;
+    margin-left: 360px;
+    opacity: 0;
+    visibility: hidden;
+    float: left;
+}
+
+.atores:hover .img-atores{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.atores:hover .texto-atores{
+    opacity: 1;
+    transition: 1s;
+    visibility: visible;
+    margin-left: 0px;
+    float: left;
+}
+
+.nome-ator{
+    width: inherit;
+    height: 40px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    font-family: fonte;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    text-align:center;
+}
+
+.info-atores{
+    margin-top: 10px;
+    margin-left: 8px;
+    box-sizing: border-box;
+    padding-bottom:10px;
+    font-family: fonte;
+    font-size: 20px;
+}
+
+.informacoes{
+    width: 300px;
+    font-family: fonte;
+    font-size: 18px;
+    text-align:center;
+    border-bottom: solid 1px #52D9FF;
+    margin-top: 5px;
+    margin-left: 7px;
+    box-sizing: border-box;
+    padding-bottom:10px;
+    line-height: 1.3;
+}

@@ -1,0 +1,354 @@
+body, h1,h2,h3,p,ul,figure{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: white;
+    background-color: #26292d;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face{
+    font-family: fonte;
+    src: url(../fontes/coprgtb-webfont.woff);
+}
+
+*{
+    font-family: fonte;
+}
+
+#caixa-cms{
+    width: 1000px;
+    min-height: 600px;
+    max-height: auto;
+    overflow: hidden;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 50px 50px 50px 50px;
+    border: solid 1px #52D9FF;
+    margin-bottom: 10px;
+
+}
+
+/* HEADER */
+
+header{
+    width: inherit;
+    height: 320px;
+}
+
+#titulo-logo{
+    width: inherit;
+    height: 200px;
+}
+
+#titulo-cms{
+    width: 700px;
+    float: left;
+    font-size: 25px;
+    text-align:center;
+    margin-top: 80px;
+}
+
+#img-logo{
+    width: 200px;
+    height: 180px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+img{
+    width: inherit;
+    height: inherit;
+}
+
+#opcoes{
+    width: inherit;
+    height: 120px;
+    clear: both;
+    border-top: solid 1px #52D9FF;
+    border-bottom: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.opcoes-cms{
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+    font-size: 14px;
+}
+
+.opcoes-cms p{
+    text-align: center;
+    margin-top: 7px;
+    letter-spacing: 1px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.opcoes-cms figure{
+    width: 80px;
+    height: 80px;
+}
+
+#login{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-left: 140px;
+}
+
+#login-usuario{
+    width: inherit;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#sair{
+    width: 90px;
+    height: 40px;
+    margin-top: 15px;
+    text-align:right;
+    box-sizing: border-box;
+    padding-right: 5px;
+    padding-top: 15px;
+    margin-left: 100px;
+    border-bottom: solid 1px #52D9FF;
+}
+
+#sair:hover{
+    cursor: pointer;
+}
+
+/* MODAL */
+
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 999;
+    box-sizing: border-box;
+    padding-top: 70px;
+    display: none;
+    margin-top: -10px;
+}
+
+.fechar-modal{
+    width: 40px;
+    height:40px;
+    background-color: #52D9FF;
+    background-image: url(../img/close.png);
+    background-size: cover;
+    border-radius: 10px;
+    position: fixed;
+    margin-left: 805px;
+    margin-top: 5px;
+}
+
+#modal-registro{
+    width: 850px;
+    height: 600px;
+    background-color: black;
+    border: solid 1px #52D9FF;
+}
+
+#modal-registro h2{
+    width: inherit;
+    height: 50px;
+    text-align:center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#info-registro{
+    width: 800px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+#caixa-nome, #caixa-profissao, #caixa-sexo, .caixa-telefones, #caixa-email, .caixa-links, .caixa-info-sugestao{
+    min-height: 60px;
+    max-height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border-bottom: solid 1px #52D9FF;
+    float: left;
+}
+
+#caixa-nome p, #caixa-profissao p, #caixa-sexo p, .caixa-telefones p, #caixa-email p, .caixa-links p, .caixa-info-sugestao p{
+    width: inherit;
+    height: 35px;
+    box-sizing:border-box;
+    padding-top: 5px;
+}
+
+#nome, #profissao, #sexo, .telefones, #email, #links{
+    width: inherit;
+    height: 25px;
+    text-align: center;
+}
+
+#caixa-nome{
+    width: 320px;
+}
+
+#caixa-profissao{
+    width: 255px;
+    margin-left: 6px;
+}
+
+#caixa-sexo{
+    width: 210px;
+    margin-left: 6px;
+}
+
+.caixa-telefones{
+    width: 222px;
+    margin-top: 10px;
+}
+
+#caixa-email{
+    width: 340px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.caixa-links, .caixa-info-sugestao{
+    width: inherit;
+    min-height: 35px;
+    max-height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+
+/* CONTEUDO */
+
+#caixa-conteudo{
+    width: inherit;
+    min-height: 200px;
+    max-height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.subopcoes{
+    min-width: 350px; 
+    max-width: auto;
+    overflow: hidden;
+    height: 120px;
+    margin-top: 10px;
+    display: compact;
+}
+
+.subopcoes figure {
+    width: 130px;
+    height: 120px;
+    float: left;
+}
+
+.subopcoes p{
+    min-width: 50px;
+    max-width: auto;
+    overflow: hidden;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 80px;    
+    letter-spacing: 1px;
+    border-bottom: solid 1px #52D9FF;
+}
+
+/* CRUD CONTATO */
+
+#titulo-crud{
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    margin-left: -20px;
+    margin-top: -20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#registros{
+    width: 800px;
+    min-height: 100px;
+    max-height: auto;
+    overflow: hidden;
+    margin-left: 80px;
+}
+
+.titulo-coluna{
+    min-width: 200px;
+    max-width: auto;
+    overflow: hidden;
+    height: 40px;
+    border: solid 1px #52D9FF;
+    text-align:center;
+    font-size: 18px;
+}
+
+.dados-coluna{
+    height: 50px;
+    font-size: 14px;
+    border-bottom: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+#icones{
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+#icones img{
+    width: 25px;
+    height: 25px;
+}
+
+/* FOOTER */
+
+footer{
+    width: inherit;
+    height: 80px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    border-top: solid 1px #52D9FF;
+}
+
+footer p{
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 13px;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,271 @@
+
+/* CRUD ATORES */
+
+
+#btn-cadastrar{
+    width:305px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 15px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border: solid 1px #52D9FF;
+    color: black;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixa-menu-lateral{
+    width: 150px;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+
+.itens-menu{
+    width: inherit;
+    height: 50px;
+    border: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin-top: 5px;
+}
+
+.itens-menu:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #52D9FF;
+}
+
+#caixa-menu{
+    width: 800px;
+    min-height: 50px;
+    max-height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+}
+
+.menu{
+    width: inherit;
+    min-height: inherit;
+    max-height: auto;
+    overflow: hidden;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.titulo-menu:hover{
+    transition: 1s;
+    cursor: pointer;
+    border-left: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+/* ******************************** CADASTRO DE ATORES **********************/
+
+#cadastro-atores{
+    width: 600px;
+    height: 390px;
+    border: solid 1px #52D9FF;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+#nome-ator{
+    width: 240px;
+    height: 60px;
+    clear: both;
+    margin-left: 5px;
+    margin-top: -70px;
+}
+
+.caixa-info{
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.caixa-info p, .caixa-destaque p{
+    width: inherit;
+    height: 25px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.caixa-info input{
+    width: inherit;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.caixa-destaque{
+    width: 310px;
+    height: 170px;
+    margin-top: 5px;
+    float: left;
+}
+
+.caixa-destaque select{
+    width: 308px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+#caixa-nome-ator input, #caixa-nome-completo input, #caixa-dt-nasc input, #caixa-imagem input,.caixa-atividade-pais input{
+    width: 260px;
+    height: 30px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    float: left;
+}
+
+#caixa-nome-completo input{
+    width: 270px;
+}
+
+#caixa-dt-nasc input{
+    width: 250px;
+}
+
+#caixa-imagem{
+    width: 270px;
+    height: 280px;
+    float: left;
+}
+#caixa-imagem input{
+    margin-top: 3px;
+}
+
+#caixa-foto{
+    width: 220px;
+    height: 170px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+#caixa-foto img{
+    width: inherit;
+    height: inherit;
+}
+
+#caixa-foto #img{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 130px;
+    height: 130px;
+}
+
+#caixa-atividade input{
+    width: 300px;
+}
+
+/* ******************************** CADASTRO DE ATIVIDADES/PAISES DOS ATORES **********************/
+
+#cadastro-atividades, #cadastro-pais{
+    width: 335px;
+    height: 130px;
+    border: solid 1px #52D9FF;
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+#cadastro-atividades{
+    width: 295px;
+    margin-left: 310px;
+}
+
+#cadastro-pais{
+    width: 300px;
+}
+
+#cadastro-atividades-ator{
+    width: 320px;
+    height: 220px;
+    border: solid 1px #52D9FF;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.caixa-atividade-pais{
+    width: 270px;
+    height: 80px;
+    float: left;
+}
+
+#caixa-imagem p ,#caixa-atores p, .caixa-atividade-pais p{
+    width: inherit;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+/* ******************************** BOTÕES **********************/
+
+#cadastro-atores .btn-cadastrar, #cadastro-atividades-ator .btn-cadastrar, #cadastro-pais .btn-cadastrar, #cadastro-atividades .btn-cadastrar{
+    width: 570px;
+    height: 35px;
+    font-size: 18px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border: solid 1px #52D9FF;
+    color: black;
+    clear: both;
+    margin-top: 5px;
+    margin-left: 15px;
+
+}
+
+#cadastro-atividades-ator .btn-cadastrar{
+    width: 310px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+#cadastro-pais .btn-cadastrar{
+    width: 312px;
+    margin-top: 5px;
+}
+
+#cadastro-atividades .btn-cadastrar{
+    width: 268px;
+    margin-top: 5px;
+}
+
+.btn-cadastrar:hover{
+    background:linear-gradient(to bottom, black 5%, black  100%);
+    color: white;
+    cursor: pointer;
+}
+
+#registros{
+    width: 800px;
+    min-height: 100px;
+    max-height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.titulo-coluna{
+    width: 150px;
+}
+
+.dados-coluna{
+    text-align: center;
+    font-size: 16px;
+}

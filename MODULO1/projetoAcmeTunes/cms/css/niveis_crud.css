@@ -1,0 +1,60 @@
+
+/* CRUD NIVEL DE AUTENTICAÇÃO */
+
+#cadastro-nivel{
+    width: 350px;
+    height: 130px;
+    border: solid 1px #52D9FF;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+#cadastro-nivel p{
+    width: inherit;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin-left: 25px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+#btn-cadastrar{
+    width:305px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 15px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border: solid 1px #52D9FF;
+    color: black;
+}
+
+#btn-cadastrar:hover{
+    background:linear-gradient(to bottom, black 5%, black  100%);
+    color: white;
+    cursor: pointer;
+}
+
+#registros{
+    width: 450px;
+    min-height: 100px;
+    max-height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.titulo-coluna{
+    width: 310px;
+}
+
+.dados-coluna{
+    text-align: center;
+    font-size: 16px;
+}

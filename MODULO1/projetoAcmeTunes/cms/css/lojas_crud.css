@@ -1,0 +1,161 @@
+
+/* CRUD LOJAS */
+
+
+#btn-cadastrar{
+    width:305px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 15px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border: solid 1px #52D9FF;
+    color: black;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixa-menu{
+    width: 900px;
+    min-height: 50px;
+    max-height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.menu{
+    width: inherit;
+    min-height: inherit;
+    max-height: auto;
+    overflow: hidden;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.titulo-menu:hover{
+    transition: 1s;
+    cursor: pointer;
+    border-left: solid 1px #52D9FF;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+#cadastro-lojas{
+    width: 560px;
+    height: 350px;
+    border: solid 1px #52D9FF;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+#cadastro-cidade{
+    width: 430px;
+    height: 150px;
+    border: solid 1px #52D9FF;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+#cadastro-estado{
+    width: 300px;
+    height: 150px;
+    border: solid 1px #52D9FF;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+#caixa-endereco, #caixa-cep, #caixa-cidade, #caixa-estado, #caixa-link{
+    width: 270px;
+    height: 80px;
+    float: left;
+}
+
+#caixa-endereco{
+    width: 305px;
+}
+
+#caixa-cep{
+    width: 220px;
+}
+
+#caixa-link{
+    width: 590px;
+    height: 120px;
+    
+}
+
+#caixa-endereco p, #caixa-cep p, #caixa-cidade p, #caixa-estado p, #caixa-link p{
+    width: inherit;
+    min-height: 40px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#caixa-endereco input, #caixa-cep input, #caixa-cidade select, #caixa-estado select, #caixa-link textarea{
+    width: 260px;
+    height: 30px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    float: left;
+}
+
+#caixa-endereco input{
+    width: 290px;
+    height: 25px;
+}
+
+#caixa-cep input{
+    width: 150px;
+    height: 25px;
+    letter-spacing: 2px;
+}
+
+#caixa-link textarea {
+    width: 530px;
+    height: 90px;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.btn-cadastrar{
+    width: 530px;
+    height: 35px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background:linear-gradient(to bottom, #44B8D1 5%, #4ACAE5  100%);
+    border: solid 1px #52D9FF;
+    color: black;
+    float: left;
+}
+
+.btn-cadastrar:hover{
+    background:linear-gradient(to bottom, black 5%, black  100%);
+    color: white;
+    cursor: pointer;
+}
+
+#registros{
+    width: 450px;
+    min-height: 100px;
+    max-height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.titulo-coluna{
+    width: 100px;
+}
+
+.dados-coluna{
+    text-align: center;
+    font-size: 16px;
+}
